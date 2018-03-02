@@ -139,18 +139,6 @@
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>C:/Users/techd/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
  </Reference>
- <Reference Include="UniGitResources">
- <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/UniGit/Editor/UniGitResources.dll</HintPath>
- </Reference>
- <Reference Include="LibGit2SharpUnity">
- <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/LibGit2Sharp/Editor/LibGit2SharpUnity.dll</HintPath>
- </Reference>
- <Reference Include="CredentialManagement">
- <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/WindowsCredentialManagement/Editor/CredentialManagement.dll</HintPath>
- </Reference>
- <Reference Include="UniGit">
- <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/UniGit/Editor/UniGit.dll</HintPath>
- </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -3,16 +3,8 @@
   <component name="ContentModelStore">
     <e p="C:\Users\techd\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_Nihil.496587456.00" t="ExcludeRecursive" />
     <e p="C:\Users\techd\Documents\MAIN NIHIL GAME\Nihil" t="IncludeRecursive">
-      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Plugins" t="Include">
-          <e p="Editor" t="Include">
-            <e p="JetBrains" t="Include">
-              <e p="Unity3DRider.cs" t="Include" />
-            </e>
-          </e>
-        </e>
         <e p="Scripts" t="Include">
           <e p="FPS Controller" t="Include">
             <e p="FPS.cs" t="Include" />

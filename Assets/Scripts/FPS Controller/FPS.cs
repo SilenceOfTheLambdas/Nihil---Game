@@ -16,7 +16,7 @@ using UnityEngine.SocialPlatforms;
 public class FPS : MonoBehaviour
 {
 	
-	[SerializeField] private float speed = 5.0f;
+	[SerializeField] private static float speed = 5.0f;
     private float m_MovX;
     private float m_MovY;
     private Vector3 m_moveHorizontal;
@@ -28,18 +28,27 @@ public class FPS : MonoBehaviour
     private Vector3 m_rotation;
     private Vector3 m_cameraRotation;
 	[SerializeField] private float m_lookSensitivity = 3.0f;
+    [SerializeField] private bool m_IsWalking = true;
     private bool m_cursorIsLocked = true;
-
-	//Crouch and Stamina System
-
+    [Header("The Values for Stamina system and walking.")]
+    // Sets the walk speed
+    public float m_WalkSpeed = speed;
+    public float DefaultWalkSpeed = 5;
+    // Run Speed and the set run speed; decided by user
+    private float m_RunSpeed;
+    [SerializeField] public float m_setRunSpeed;
+    
+    // User set run time (in secs)
+    [Header("Set the amount of time the player can run for.")]
+    [SerializeField] [Range(0, 10)]private float m_runTime;
+    [SerializeField] [Range(0, 10)]public float m_setRunTime;
+    
+    // Stamina
 	[Header("The Default Values for Stamina and Crouching")]
 	[SerializeField]private float initailCharHeight;
-	[SerializeField]private float CharRunSpeed;
 	[SerializeField]private static float initialCharWalkSpeed = initialCharWalkSpeed = 3;
-	[Header("The New Values for Stamina and Crouching")]
+	[Header("The New Values for Crouching")]
 	[SerializeField]private float CharCrouchHeight;
-    [SerializeField] [Range(0, 10)] public static float runTime;
-    private float DefaultRunTime = runTime;
 
 
     [Header("The Camera the player looks through")]
@@ -91,28 +100,51 @@ public class FPS : MonoBehaviour
         }
 
 
-		// Running System
+		// Walking
 
-		speed = Input.GetKey(KeyCode.LeftShift) ? CharRunSpeed : initialCharWalkSpeed;
+        if (m_IsWalking == true) {
+
+            m_WalkSpeed = m_WalkSpeed;
+        }
+        
+        // Running System
+
+		speed = Input.GetKey(KeyCode.LeftShift) ? m_RunSpeed : initialCharWalkSpeed;
+
+        if (Input.GetKey(KeyCode.LeftShift)) {
+
+            m_IsWalking = false;
+            m_WalkSpeed = m_RunSpeed;
+        }else {
+            
+            m_IsWalking = true;
+        }
 
         InternalLockUpdate();
         
         //Stamina System
 
-        if (speed == CharRunSpeed)
-        {
-            
-        }
+            if (m_IsWalking == false) {
 
-        if (runTime <= 0)
-        {
-            speed = initialCharWalkSpeed;
-        }
+                m_runTime -= Time.deltaTime;
 
-        if (!Input.GetKey(KeyCode.LeftShift))
-        {
-            
-        }
+            }if (m_runTime <= 0.02)
+            {
+                m_IsWalking = true;
+                m_RunSpeed = DefaultWalkSpeed; 
+
+            }if (m_RunSpeed == DefaultWalkSpeed)
+            {
+                m_runTime += Time.deltaTime;
+            }
+                if (m_runTime == m_setRunTime)
+                {
+                    m_RunSpeed = m_setRunSpeed;
+                }
+                if (m_runTime >= m_setRunTime)
+                {
+                    m_runTime = m_setRunTime;
+            }
 
     }
 
