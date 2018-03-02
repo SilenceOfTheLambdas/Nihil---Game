@@ -101,7 +101,7 @@ public class FPS : MonoBehaviour
 
         if (speed == CharRunSpeed)
         {
-            runTime -= Time.fixedDeltaTime = runTime;
+            
         }
 
         if (runTime <= 0)
@@ -111,7 +111,7 @@ public class FPS : MonoBehaviour
 
         if (!Input.GetKey(KeyCode.LeftShift))
         {
-            runTime += Time.fixedDeltaTime = DefaultRunTime;
+            
         }
 
     }

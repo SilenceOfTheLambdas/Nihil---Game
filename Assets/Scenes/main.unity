@@ -274,10 +274,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1421048320}
   - component: {fileID: 1421048319}
+  - component: {fileID: 1421048322}
   - component: {fileID: 1421048318}
   - component: {fileID: 1421048317}
   - component: {fileID: 1421048321}
-  - component: {fileID: 1421048322}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -298,8 +298,8 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 116
+  m_CollisionDetection: 2
 --- !u!143 &1421048318
 CharacterController:
   m_ObjectHideFlags: 0
@@ -367,4 +367,4 @@ MonoBehaviour:
   initailCharHeight: 1
   CharRunSpeed: 8
   CharCrouchHeight: 0.5
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 1286311986}
