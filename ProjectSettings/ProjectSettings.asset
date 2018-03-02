@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 14
-  productGUID: fa584eec856fc954f86ef931f94b7a76
+  productGUID: 0b9c3a29d9888a640ba84a8ffad36046
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   defaultScreenOrientation: 4
@@ -629,14 +629,12 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
-  cloudServicesEnabled:
-    Collab: 1
-    UNet: 1
+  cloudServicesEnabled: {}
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 45c143ec-a121-45ee-b36b-299728589e56
-  projectName: Nihil
-  organizationId: dragonssfedora
+  cloudProjectId: 960ccbd8-7f21-4176-aef0-b01792beb0b0
+  projectName: Nihil (1)
+  organizationId: techdragon-games
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
