@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d667f0f9-c8cc-4393-95aa-8957ddc8ab51" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Nihil/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Nihil/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Nihil/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Nihil/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor-firstpass.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor-firstpass.csproj" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FPS Controller/FPS.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/FPS Controller/FPS.cs" />
-      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" afterPath="$PROJECT_DIR$/Library/EditorInstance.json" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" afterPath="$PROJECT_DIR$/Library/assetDatabase3" />
@@ -15,13 +13,9 @@
       <change beforePath="$PROJECT_DIR$/Library/gfu/cache/gitstatusentries.yaml" afterPath="$PROJECT_DIR$/Library/gfu/cache/gitstatusentries.yaml" />
       <change beforePath="$PROJECT_DIR$/Library/gfu/cache/gittrackingstatus.yaml" afterPath="$PROJECT_DIR$/Library/gfu/cache/gittrackingstatus.yaml" />
       <change beforePath="$PROJECT_DIR$/Library/gfu/cache/gituser.yaml" afterPath="$PROJECT_DIR$/Library/gfu/cache/gituser.yaml" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/a7/a7cc1e2f0d359054bbe7d44917a43c73" afterPath="$PROJECT_DIR$/Library/metadata/a7/a7cc1e2f0d359054bbe7d44917a43c73" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/05/05ec5cf00ca181d45a42ba1870e148c3" afterPath="$PROJECT_DIR$/Library/metadata/05/05ec5cf00ca181d45a42ba1870e148c3" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" />
       <change beforePath="$PROJECT_DIR$/Nihil.sln" afterPath="$PROJECT_DIR$/Nihil.sln" />
-      <change beforePath="$PROJECT_DIR$/Temp/TarGZ/archtemp.tar" afterPath="$PROJECT_DIR$/Temp/TarGZ/archtemp.tar" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityLockfile" afterPath="$PROJECT_DIR$/Temp/UnityLockfile" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-7b539232fcf9f404ea81b92bf33460b7" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-e1c82800bf8e78342a1c1d1df1ddfeac" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" afterPath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,81 +26,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FPS.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/FPS Controller/FPS.cs">
+      <file leaf-file-name="FirstPersonController.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5359">
-              <caret line="233" column="59" lean-forward="true" selection-start-line="233" selection-start-column="59" selection-end-line="233" selection-end-column="59" />
+            <state relative-caret-position="253">
+              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
               <folding>
-                <marker date="1520173161226" expanded="true" signature="6:113" ph="..." />
-                <marker date="1520173161226" expanded="true" signature="167:10392" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="277:10390" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="2310:2829" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="2915:4039" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="3055:3157" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="3233:3366" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="3455:3517" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="3629:3715" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="3719:3809" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="3868:3948" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="3952:4028" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="4081:4225" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="4262:5768" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="5096:5400" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="5192:5386" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="5417:5531" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="5807:5907" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="5961:6474" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="6074:6276" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="6322:6374" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="6517:7106" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="6578:6630" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="6643:6739" ph="/* pick &amp; play a random footstep sound from the array, ... */" />
-                <marker date="1520173161226" expanded="true" signature="7163:7734" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="7243:7295" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="7393:7542" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="7559:7657" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="7783:9715" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="8051:8198" ph="/* On standalone builds, walk/run speed is modified by a key press. ... */" />
-                <marker date="1520173161226" expanded="true" signature="8666:8728" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="8750:8857" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="8877:8950" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="8997:9081" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="9128:9206" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="9315:9380" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="9394:9530" ph="/* handle speed change to give an fov kick ... */" />
-                <marker date="1520173161226" expanded="true" signature="9640:9705" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="9751:9841" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="9915:10384" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="10115:10167" ph="{...}" />
-                <marker date="1520173161226" expanded="true" signature="10218:10270" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MouseLook.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/FPS Controller/MouseLook.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="23" column="63" lean-forward="false" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
-              <folding>
-                <marker date="1520172442778" expanded="true" signature="6:78" ph="..." />
-                <marker date="1520172442778" expanded="true" signature="132:3402" ph="{...}" />
-                <marker date="1520172442778" expanded="true" signature="196:3400" ph="{...}" />
-                <marker date="1520172442778" expanded="true" signature="727:861" ph="{...}" />
-                <marker date="1520172442778" expanded="true" signature="935:1852" ph="{...}" />
-                <marker date="1520172442778" expanded="true" signature="1399:1732" ph="{...}" />
-                <marker date="1520172442778" expanded="true" signature="1749:1841" ph="{...}" />
-                <marker date="1520172442778" expanded="true" signature="1899:2176" ph="{...}" />
-                <marker date="1520172442778" expanded="true" signature="1969:2166" ph="{...}" />
-                <marker date="1520172442778" expanded="true" signature="2216:2381" ph="{...}" />
-                <marker date="1520172442778" expanded="true" signature="2423:3000" ph="{...}" />
-                <marker date="1520172442778" expanded="true" signature="2480:2550" ph="{...}" />
-                <marker date="1520172442778" expanded="true" signature="2597:2666" ph="{...}" />
-                <marker date="1520172442778" expanded="true" signature="2701:2827" ph="{...}" />
-                <marker date="1520172442778" expanded="true" signature="2867:2990" ph="{...}" />
-                <marker date="1520172442778" expanded="true" signature="3059:3393" ph="{...}" />
+                <marker date="1520176791588" expanded="false" signature="6:184" ph="..." />
+                <marker date="1520176791588" expanded="true" signature="251:11705" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="406:11703" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="3063:3650" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="3724:4904" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="3864:3966" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="4042:4231" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="4320:4382" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="4494:4580" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="4584:4674" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="4733:4813" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="4817:4893" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="4946:5090" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="5127:6633" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="5961:6265" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="6057:6251" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="6282:6396" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="6672:6772" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="6826:7339" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="6939:7141" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="7187:7239" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="7382:7971" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="7443:7495" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="7508:7604" ph="/* pick &amp; play a random footstep sound from the array, ... */" />
+                <marker date="1520176791588" expanded="true" signature="8028:8951" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="8108:8160" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="8258:8672" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="8689:8874" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="9000:11028" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="9268:9415" ph="/* On standalone builds, walk/run speed is modified by a key press. ... */" />
+                <marker date="1520176791588" expanded="true" signature="9883:9945" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="9967:10074" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="10094:10167" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="10214:10298" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="10345:10423" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="10532:10597" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="10611:10747" ph="/* handle speed change to give an fov kick ... */" />
+                <marker date="1520176791588" expanded="true" signature="10857:11018" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="11064:11154" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="11228:11697" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="11428:11480" ph="{...}" />
+                <marker date="1520176791588" expanded="true" signature="11531:11583" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -114,12 +81,20 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>FootStepAudio</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FPS Controller/FPS.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FPS Controller/MouseLook.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Nihil-20180302T145305Z-001/Nihil/Assets/Character/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FE4B0088-17C8-40D9-A31A-B98084D9C3E5/99/44c3961a/Single.cs" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -127,6 +102,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/FPS Controller/mouselook.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FPS Controller/MouseLook.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FPS Controller/FPS.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FPS Controller/FirstPersonController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" />
       </list>
     </option>
   </component>
@@ -136,11 +115,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="114" />
-    <option name="y" value="6" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="588" />
+    <option name="y" value="40" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -157,6 +139,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -164,23 +147,12 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Nihil (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Nihil (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Nihil (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assembly-CSharp-Editor" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,7 +188,8 @@
       <updated>1520010880346</updated>
       <workItem from="1520010889375" duration="124000" />
       <workItem from="1520016947876" duration="1263000" />
-      <workItem from="1520170607663" duration="2550000" />
+      <workItem from="1520170607663" duration="5305000" />
+      <workItem from="1520175971624" duration="859000" />
     </task>
     <task id="LOCAL-00001" summary="Improved layout and readability.">
       <created>1520126802201</created>
@@ -229,7 +202,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3937000" />
+    <option name="totallyTimeSpent" value="7551000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -241,7 +214,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="114" y="6" width="1400" height="1000" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -252,7 +225,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17630059" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12708333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -275,187 +248,146 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Improved layout and readability." />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved layout and readability." />
+    <MESSAGE value="Completely replaced code with an edited version of Unity's own character controller script." />
+    <option name="LAST_COMMIT_MESSAGE" value="Completely replaced code with an edited version of Unity's own character controller script." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FPS Controller/FPS.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1520173161226" expanded="true" signature="6:113" ph="..." />
-            <marker date="1520173161226" expanded="true" signature="167:10392" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="277:10390" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="2310:2829" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="2915:4039" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="3055:3157" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="3233:3366" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="3455:3517" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="3629:3715" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="3719:3809" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="3868:3948" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="3952:4028" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="4081:4225" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="4262:5768" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="5096:5400" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="5192:5386" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="5417:5531" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="5807:5907" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="5961:6474" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="6074:6276" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="6322:6374" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="6517:7106" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="6578:6630" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="6643:6739" ph="/* pick &amp; play a random footstep sound from the array, ... */" />
-            <marker date="1520173161226" expanded="true" signature="7163:7734" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="7243:7295" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="7393:7542" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="7559:7657" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="7783:9715" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="8051:8198" ph="/* On standalone builds, walk/run speed is modified by a key press. ... */" />
-            <marker date="1520173161226" expanded="true" signature="8666:8728" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="8750:8857" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="8877:8950" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="8997:9081" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="9128:9206" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="9315:9380" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="9394:9530" ph="/* handle speed change to give an fov kick ... */" />
-            <marker date="1520173161226" expanded="true" signature="9640:9705" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="9751:9841" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="9915:10384" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="10115:10167" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="10218:10270" ph="{...}" />
+            <marker date="1520176791588" expanded="false" signature="6:184" ph="..." />
+            <marker date="1520176791588" expanded="true" signature="251:11705" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="406:11703" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="3063:3650" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="3724:4904" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="3864:3966" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="4042:4231" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="4320:4382" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="4494:4580" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="4584:4674" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="4733:4813" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="4817:4893" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="4946:5090" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="5127:6633" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="5961:6265" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="6057:6251" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="6282:6396" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="6672:6772" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="6826:7339" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="6939:7141" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="7187:7239" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="7382:7971" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="7443:7495" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="7508:7604" ph="/* pick &amp; play a random footstep sound from the array, ... */" />
+            <marker date="1520176791588" expanded="true" signature="8028:8951" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="8108:8160" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="8258:8672" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="8689:8874" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="9000:11028" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="9268:9415" ph="/* On standalone builds, walk/run speed is modified by a key press. ... */" />
+            <marker date="1520176791588" expanded="true" signature="9883:9945" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="9967:10074" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="10094:10167" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="10214:10298" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="10345:10423" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="10532:10597" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="10611:10747" ph="/* handle speed change to give an fov kick ... */" />
+            <marker date="1520176791588" expanded="true" signature="10857:11018" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="11064:11154" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="11228:11697" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="11428:11480" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="11531:11583" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FPS Controller/FPS.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FPS Controller/FPS.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FPS Controller/FPS.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FPS Controller/MouseLook.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FPS Controller/FPS.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FPS Controller/FirstPersonController.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Nihil-20180302T145305Z-001/Nihil/Assets/Character/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1520173161226" expanded="true" signature="6:113" ph="..." />
-            <marker date="1520173161226" expanded="true" signature="167:10392" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="277:10390" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="2310:2829" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="2915:4039" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="3055:3157" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="3233:3366" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="3455:3517" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="3629:3715" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="3719:3809" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="3868:3948" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="3952:4028" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="4081:4225" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="4262:5768" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="5096:5400" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="5192:5386" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="5417:5531" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="5807:5907" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="5961:6474" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="6074:6276" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="6322:6374" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="6517:7106" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="6578:6630" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="6643:6739" ph="/* pick &amp; play a random footstep sound from the array, ... */" />
-            <marker date="1520173161226" expanded="true" signature="7163:7734" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="7243:7295" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="7393:7542" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="7559:7657" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="7783:9715" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="8051:8198" ph="/* On standalone builds, walk/run speed is modified by a key press. ... */" />
-            <marker date="1520173161226" expanded="true" signature="8666:8728" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="8750:8857" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="8877:8950" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="8997:9081" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="9128:9206" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="9315:9380" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="9394:9530" ph="/* handle speed change to give an fov kick ... */" />
-            <marker date="1520173161226" expanded="true" signature="9640:9705" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="9751:9841" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="9915:10384" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="10115:10167" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="10218:10270" ph="{...}" />
-          </folding>
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="314" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FPS Controller/MouseLook.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="23" column="63" lean-forward="false" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
-          <folding>
-            <marker date="1520172442778" expanded="true" signature="6:78" ph="..." />
-            <marker date="1520172442778" expanded="true" signature="132:3402" ph="{...}" />
-            <marker date="1520172442778" expanded="true" signature="196:3400" ph="{...}" />
-            <marker date="1520172442778" expanded="true" signature="727:861" ph="{...}" />
-            <marker date="1520172442778" expanded="true" signature="935:1852" ph="{...}" />
-            <marker date="1520172442778" expanded="true" signature="1399:1732" ph="{...}" />
-            <marker date="1520172442778" expanded="true" signature="1749:1841" ph="{...}" />
-            <marker date="1520172442778" expanded="true" signature="1899:2176" ph="{...}" />
-            <marker date="1520172442778" expanded="true" signature="1969:2166" ph="{...}" />
-            <marker date="1520172442778" expanded="true" signature="2216:2381" ph="{...}" />
-            <marker date="1520172442778" expanded="true" signature="2423:3000" ph="{...}" />
-            <marker date="1520172442778" expanded="true" signature="2480:2550" ph="{...}" />
-            <marker date="1520172442778" expanded="true" signature="2597:2666" ph="{...}" />
-            <marker date="1520172442778" expanded="true" signature="2701:2827" ph="{...}" />
-            <marker date="1520172442778" expanded="true" signature="2867:2990" ph="{...}" />
-            <marker date="1520172442778" expanded="true" signature="3059:3393" ph="{...}" />
-          </folding>
+        <state relative-caret-position="161">
+          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FPS Controller/FPS.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5359">
-          <caret line="233" column="59" lean-forward="true" selection-start-line="233" selection-start-column="59" selection-end-line="233" selection-end-column="59" />
+        <state relative-caret-position="599">
+          <caret line="81" column="53" lean-forward="true" selection-start-line="81" selection-start-column="53" selection-end-line="81" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FE4B0088-17C8-40D9-A31A-B98084D9C3E5/99/44c3961a/Single.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1495">
+          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
           <folding>
-            <marker date="1520173161226" expanded="true" signature="6:113" ph="..." />
-            <marker date="1520173161226" expanded="true" signature="167:10392" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="277:10390" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="2310:2829" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="2915:4039" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="3055:3157" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="3233:3366" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="3455:3517" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="3629:3715" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="3719:3809" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="3868:3948" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="3952:4028" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="4081:4225" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="4262:5768" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="5096:5400" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="5192:5386" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="5417:5531" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="5807:5907" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="5961:6474" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="6074:6276" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="6322:6374" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="6517:7106" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="6578:6630" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="6643:6739" ph="/* pick &amp; play a random footstep sound from the array, ... */" />
-            <marker date="1520173161226" expanded="true" signature="7163:7734" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="7243:7295" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="7393:7542" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="7559:7657" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="7783:9715" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="8051:8198" ph="/* On standalone builds, walk/run speed is modified by a key press. ... */" />
-            <marker date="1520173161226" expanded="true" signature="8666:8728" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="8750:8857" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="8877:8950" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="8997:9081" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="9128:9206" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="9315:9380" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="9394:9530" ph="/* handle speed change to give an fov kick ... */" />
-            <marker date="1520173161226" expanded="true" signature="9640:9705" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="9751:9841" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="9915:10384" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="10115:10167" ph="{...}" />
-            <marker date="1520173161226" expanded="true" signature="10218:10270" ph="{...}" />
+            <marker date="1520176791588" expanded="false" signature="6:184" ph="..." />
+            <marker date="1520176791588" expanded="true" signature="251:11705" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="406:11703" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="3063:3650" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="3724:4904" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="3864:3966" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="4042:4231" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="4320:4382" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="4494:4580" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="4584:4674" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="4733:4813" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="4817:4893" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="4946:5090" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="5127:6633" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="5961:6265" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="6057:6251" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="6282:6396" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="6672:6772" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="6826:7339" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="6939:7141" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="7187:7239" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="7382:7971" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="7443:7495" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="7508:7604" ph="/* pick &amp; play a random footstep sound from the array, ... */" />
+            <marker date="1520176791588" expanded="true" signature="8028:8951" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="8108:8160" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="8258:8672" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="8689:8874" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="9000:11028" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="9268:9415" ph="/* On standalone builds, walk/run speed is modified by a key press. ... */" />
+            <marker date="1520176791588" expanded="true" signature="9883:9945" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="9967:10074" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="10094:10167" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="10214:10298" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="10345:10423" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="10532:10597" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="10611:10747" ph="/* handle speed change to give an fov kick ... */" />
+            <marker date="1520176791588" expanded="true" signature="10857:11018" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="11064:11154" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="11228:11697" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="11428:11480" ph="{...}" />
+            <marker date="1520176791588" expanded="true" signature="11531:11583" ph="{...}" />
           </folding>
         </state>
       </provider>

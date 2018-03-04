@@ -10,17 +10,26 @@ namespace Standard_Assets.Characters.FirstPersonCharacter.Scripts
     [RequireComponent(typeof (AudioSource))]
     public class FirstPersonController : MonoBehaviour
     {
-        [SerializeField] private bool m_IsWalking;
-        // Sets the walk speed
-        public float m_WalkSpeed;
-        public float DefaultWalkSpeed = 5;
-        // Run Speed and the set run speed; decided by user
-        private float m_RunSpeed;
-        // User set run time (in secs)
-        private float m_runTime = 8f;
-        public float m_setRunTime;
-        // Set run speed
-        public float m_setRunSpeed;
+        // Is the player walking?
+        [SerializeField]private bool m_IsWalking;
+        
+        [Header("Sets the default and changed walk speed; these must be the same value.")]
+        [SerializeField]private float m_WalkSpeed;
+        [SerializeField]public float DefaultWalkSpeed = 5;
+        
+        [Header("Run Speed and the set run speed; decided by user.")]
+        [SerializeField]private float m_RunSpeed;
+        [SerializeField]private float m_setRunSpeed;
+        
+        [Header("Sets the run time; both values MUST be the SAME.")]
+        [SerializeField] [Range(0f, 8f)] private float m_runTime = 8f;
+        [SerializeField] [Range(0f, 8f)] public float  m_setRunTime;
+        
+        [Header("Sets the character height when crouched and the default char height.")]
+        public float setCharHeight;
+        public float DefualtCharheight = 1.8f;
+        
+        // Unity created vars
         [SerializeField] [Range(0f, 1f)] private float m_RunstepLenghten;
         [SerializeField] private float m_JumpSpeed;
         [SerializeField] private float m_StickToGroundForce;
@@ -50,9 +59,6 @@ namespace Standard_Assets.Characters.FirstPersonCharacter.Scripts
         private bool m_Jumping = false;
         private AudioSource m_AudioSource;
         CharacterController characterCollider;
-        //Char crouch vars
-        public float setCharHeight;
-        public float DefualtCharheight = 1.8f;
 
         // Use this for initialization
         private void Start()
@@ -68,10 +74,7 @@ namespace Standard_Assets.Characters.FirstPersonCharacter.Scripts
             m_AudioSource = GetComponent<AudioSource>();
             m_MouseLook.Init(transform, m_Camera.transform);
             characterCollider = GetComponent<CharacterController>();
-            
-            
         } 
-           
         // Update is called once per frame
         private void Update()
         {
