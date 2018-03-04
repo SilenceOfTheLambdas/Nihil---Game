@@ -11,10 +11,35 @@ MonoBehaviour:
   m_Script: {fileID: 1038538317, guid: 7d3a677691631814c819f6c04b639945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastUpdatedAtString: 2018-03-04T15:26:42.1326317+00:00
-  lastVerifiedAtString: 2018-03-04T15:27:08.5463035+00:00
-  initializedAtString: 2018-03-04T15:26:34.4650807+00:00
+  lastUpdatedAtString: 2018-03-04T15:50:34.3516159+00:00
+  lastVerifiedAtString: 2018-03-04T15:50:36.2063296+00:00
+  initializedAtString: 2018-03-04T15:41:17.6178917+00:00
   entries:
+  - path: Assets\Scenes\main.unity
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Scenes\main.unity
+    projectPath: Assets\Scenes\main.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scripts\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Scripts\Standard
+      Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs
+    projectPath: Assets\Scripts\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Library\assetDatabase3
     fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\assetDatabase3
     projectPath: Library\assetDatabase3
@@ -51,123 +76,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\00\0000000000000000c000000000000000
-    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\00\0000000000000000c000000000000000
-    projectPath: Library\metadata\00\0000000000000000c000000000000000
+  - path: Library\metadata\05\05ec5cf00ca181d45a42ba1870e148c3
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\05\05ec5cf00ca181d45a42ba1870e148c3
+    projectPath: Library\metadata\05\05ec5cf00ca181d45a42ba1870e148c3
     originalPath: 
     status: 3
-    staged: 0
-  - path: ProjectSettings\EditorSettings.asset
-    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\ProjectSettings\EditorSettings.asset
-    projectPath: ProjectSettings\EditorSettings.asset
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\EditorInstance.json
-    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\EditorInstance.json
-    projectPath: Library\EditorInstance.json
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\ProcessJobs\07d470bf852251fd8abe2d4768481fac.lt
-    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Temp\ProcessJobs\07d470bf852251fd8abe2d4768481fac.lt
-    projectPath: Temp\ProcessJobs\07d470bf852251fd8abe2d4768481fac.lt
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\ProcessJobs\07d470bf852251fd8abe2d4768481fac.vis
-    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Temp\ProcessJobs\07d470bf852251fd8abe2d4768481fac.vis
-    projectPath: Temp\ProcessJobs\07d470bf852251fd8abe2d4768481fac.vis
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\ProcessJobs\2eec26039d930f8b3138c6585be25381.clust
-    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Temp\ProcessJobs\2eec26039d930f8b3138c6585be25381.clust
-    projectPath: Temp\ProcessJobs\2eec26039d930f8b3138c6585be25381.clust
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\ProcessJobs\66cd49fde8730109cb2c9cd1c9df6b36.lt
-    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Temp\ProcessJobs\66cd49fde8730109cb2c9cd1c9df6b36.lt
-    projectPath: Temp\ProcessJobs\66cd49fde8730109cb2c9cd1c9df6b36.lt
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\ProcessJobs\66cd49fde8730109cb2c9cd1c9df6b36.vis
-    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Temp\ProcessJobs\66cd49fde8730109cb2c9cd1c9df6b36.vis
-    projectPath: Temp\ProcessJobs\66cd49fde8730109cb2c9cd1c9df6b36.vis
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\ProcessJobs\78e0e1f7b1b3bc68d2f640599c222091.clust
-    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Temp\ProcessJobs\78e0e1f7b1b3bc68d2f640599c222091.clust
-    projectPath: Temp\ProcessJobs\78e0e1f7b1b3bc68d2f640599c222091.clust
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\ProcessJobs\899cf24deec42b5570816e92b1812bc0.clust
-    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Temp\ProcessJobs\899cf24deec42b5570816e92b1812bc0.clust
-    projectPath: Temp\ProcessJobs\899cf24deec42b5570816e92b1812bc0.clust
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\ProcessJobs\b3429fa2f8b045ff1be7802ce2550d56.clust
-    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Temp\ProcessJobs\b3429fa2f8b045ff1be7802ce2550d56.clust
-    projectPath: Temp\ProcessJobs\b3429fa2f8b045ff1be7802ce2550d56.clust
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\ProcessJobs\dae57cd5117de62adcf1baa5cf2a72bc.lt
-    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Temp\ProcessJobs\dae57cd5117de62adcf1baa5cf2a72bc.lt
-    projectPath: Temp\ProcessJobs\dae57cd5117de62adcf1baa5cf2a72bc.lt
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\ProcessJobs\dae57cd5117de62adcf1baa5cf2a72bc.vis
-    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Temp\ProcessJobs\dae57cd5117de62adcf1baa5cf2a72bc.vis
-    projectPath: Temp\ProcessJobs\dae57cd5117de62adcf1baa5cf2a72bc.vis
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
-    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
-    projectPath: Temp\ProcessJobs\e9a6970f79cd12d8b075e7d72f1b07cb.bakert
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\ProcessJobs\fa60b95f485b5e9191d95d7e86dd8040.lt
-    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Temp\ProcessJobs\fa60b95f485b5e9191d95d7e86dd8040.lt
-    projectPath: Temp\ProcessJobs\fa60b95f485b5e9191d95d7e86dd8040.lt
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\ProcessJobs\fa60b95f485b5e9191d95d7e86dd8040.vis
-    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Temp\ProcessJobs\fa60b95f485b5e9191d95d7e86dd8040.vis
-    projectPath: Temp\ProcessJobs\fa60b95f485b5e9191d95d7e86dd8040.vis
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityLockfile
-    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Temp\UnityLockfile
-    projectPath: Temp\UnityLockfile
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-38f9ae2956976f8428f3e64d77ddcc64
-    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Temp\UnityTempFile-38f9ae2956976f8428f3e64d77ddcc64
-    projectPath: Temp\UnityTempFile-38f9ae2956976f8428f3e64d77ddcc64
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-bd33be04d92e541439fe2262f3cf9e3a
-    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Temp\UnityTempFile-bd33be04d92e541439fe2262f3cf9e3a
-    projectPath: Temp\UnityTempFile-bd33be04d92e541439fe2262f3cf9e3a
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-c315db37cef72b245af65bdbd87221d0
-    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Temp\UnityTempFile-c315db37cef72b245af65bdbd87221d0
-    projectPath: Temp\UnityTempFile-c315db37cef72b245af65bdbd87221d0
-    originalPath: 
-    status: 1
     staged: 0

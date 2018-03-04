@@ -319,8 +319,8 @@ MonoBehaviour:
   m_setRunSpeed: 8
   m_runTime: 4
   m_setRunTime: 4
-  setCharHeight: 1
-  DefualtCharheight: 2
+  setCharHeight: 0.9
+  DefualtCharheight: 1.8
   m_RunstepLenghten: 0
   m_JumpSpeed: 0
   m_StickToGroundForce: 0
@@ -406,7 +406,7 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 2
+  m_Height: 1.8
   m_Radius: 0.5
   m_SlopeLimit: 45
   m_StepOffset: 0.3

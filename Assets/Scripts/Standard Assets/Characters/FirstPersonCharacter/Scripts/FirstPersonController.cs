@@ -101,12 +101,12 @@ namespace Standard_Assets.Characters.FirstPersonCharacter.Scripts
 
             if (Input.GetKey(KeyCode.C))
             {
-                characterCollider.height = setCharHeight;
+                m_CharacterController.height = setCharHeight;
             }else
             {
-                characterCollider.height = DefualtCharheight;
+                m_CharacterController.height = DefualtCharheight;
             }
-            if (characterCollider.height == setCharHeight)
+            if (m_CharacterController.height == setCharHeight)
             {
                 m_WalkSpeed = DefaultWalkSpeed / 2;
             }else
