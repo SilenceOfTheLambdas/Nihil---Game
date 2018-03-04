@@ -1,12 +1,3 @@
-// FPS Controller
-// 1. Create a Parent Object like a 3D model
-// 2. Make the Camera the user is going to use as a child and move it to the height you wish. 
-// 3. Attach a Rigidbody to the parent
-// 4. Drag the Camera into the m_Camera public variable slot in the inspector
-// Escape Key: Escapes the mouse lock
-// Mouse click after pressing escape will lock the mouse again
-
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
