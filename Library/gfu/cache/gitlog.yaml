@@ -11,10 +11,89 @@ MonoBehaviour:
   m_Script: {fileID: -530159753, guid: 7d3a677691631814c819f6c04b639945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastUpdatedAtString: 2018-03-04T15:49:58.4620526+00:00
-  lastVerifiedAtString: 2018-03-04T15:49:58.4620526+00:00
+  lastUpdatedAtString: 2018-03-04T17:01:49.5686471+00:00
+  lastVerifiedAtString: 2018-03-04T17:01:49.5686471+00:00
   initializedAtString: 2018-03-04T15:38:41.4853729+00:00
   log:
+  - commitID: f7ec568dde9a4afab70d9092ec287b3ffe8c505e
+    mergeA: 
+    mergeB: 
+    authorName: Callum Smith
+    authorEmail: techdragon@tuta.io
+    commitEmail: techdragon@tuta.io
+    commitName: Callum Smith
+    summary: Implemented Torch and Torch light.
+    description: Implemented Torch and Torch light.
+    timeString: 2018-03-04T15:51:54.0000000+00:00
+    commitTimeString: 2018-03-04T15:51:54.0000000+00:00
+    changes:
+    - path: Assets\Scenes\main.unity
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Scenes\main.unity
+      projectPath: Assets\Scenes\main.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Scripts\Standard
+        Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs
+      projectPath: Assets\Scripts\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gituser.yaml
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\gfu\cache\gituser.yaml
+      projectPath: Library\gfu\cache\gituser.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\05\05ec5cf00ca181d45a42ba1870e148c3
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\05\05ec5cf00ca181d45a42ba1870e148c3
+      projectPath: Library\metadata\05\05ec5cf00ca181d45a42ba1870e148c3
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 264a61285d810d4c6cf9306ec712cc03e55794a4
     mergeA: 
     mergeB: 
