@@ -6,8 +6,6 @@ using UnityEngine.SocialPlatforms;
 [RequireComponent(typeof(Rigidbody))]
 public class FPS : MonoBehaviour
 {
-	
-	[SerializeField] private static float speed = 5.0f;
     private float m_MovX;
     private float m_MovY;
     private Vector3 m_moveHorizontal;
@@ -17,18 +15,20 @@ public class FPS : MonoBehaviour
     private float m_yRot;
     private float m_xRot;
     private Vector3 m_rotation;
-    private Vector3 m_cameraRotation;
+    private Vector3 m_cameraRotation;  
+    private bool m_cursorIsLocked = true;  
+	[SerializeField] private static float speed = 5.0f;
 	[SerializeField] private float m_lookSensitivity = 3.0f;
     [SerializeField] private bool m_IsWalking = true;
-    private bool m_cursorIsLocked = true;
+    
     [Header("The Values for Stamina system and walking.")]
-    // Sets the walk speed
+    // Sets The Default walk speed (which it always reverts back to, and the chnaged walk speed.)
     public float m_WalkSpeed = speed;
     public float DefaultWalkSpeed = 5;
     // Run Speed and the set run speed; decided by user
     private float m_RunSpeed;
     [SerializeField] public float m_setRunSpeed;
-    
+   
     // User set run time (in secs)
     [Header("Set the amount of time the player can run for.")]
     [SerializeField] [Range(0, 10)]private float m_runTime;
@@ -40,7 +40,6 @@ public class FPS : MonoBehaviour
 	[SerializeField]private static float initialCharWalkSpeed = initialCharWalkSpeed = 3;
 	[Header("The New Values for Crouching")]
 	[SerializeField]private float CharCrouchHeight;
-
 
     [Header("The Camera the player looks through")]
     public Camera m_Camera;
