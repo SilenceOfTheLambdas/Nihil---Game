@@ -11,10 +11,198 @@ MonoBehaviour:
   m_Script: {fileID: -530159753, guid: 7d3a677691631814c819f6c04b639945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastUpdatedAtString: 2018-03-04T15:20:46.7055187+00:00
-  lastVerifiedAtString: 2018-03-04T15:20:46.7055187+00:00
-  initializedAtString: 2018-03-04T15:04:00.6130532+00:00
+  lastUpdatedAtString: 2018-03-04T15:24:30.4638119+00:00
+  lastVerifiedAtString: 2018-03-04T15:24:30.4638119+00:00
+  initializedAtString: 2018-03-04T15:24:22.4789297+00:00
   log:
+  - commitID: 8ff261f2eceee3d3d9254182f34aa7e95c7a9f8d
+    mergeA: 
+    mergeB: 
+    authorName: Callum Smith
+    authorEmail: techdragon@tuta.io
+    commitEmail: techdragon@tuta.io
+    commitName: Callum Smith
+    summary: Added tmp dir to the gitignore file.
+    description: Added tmp dir to the gitignore file.
+    timeString: 2018-03-04T15:23:23.0000000+00:00
+    commitTimeString: 2018-03-04T15:23:23.0000000+00:00
+    changes:
+    - path: .gitignore
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: 59cdfa72b706d988d0b3c308b2f1cdf76a4de384
+    mergeA: 
+    mergeB: 
+    authorName: Callum Smith
+    authorEmail: techdragon@tuta.io
+    commitEmail: techdragon@tuta.io
+    commitName: Callum Smith
+    summary: Improved Inspector view and Fixed stamina mechanic.
+    description: "Improved Inspector view and Fixed stamina mechanic.\r\n"
+    timeString: 2018-03-04T15:21:45.0000000+00:00
+    commitTimeString: 2018-03-04T15:21:45.0000000+00:00
+    changes:
+    - path: .idea\.idea.Nihil\.idea\contentModel.xml
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\.idea\.idea.Nihil\.idea\contentModel.xml
+      projectPath: .idea\.idea.Nihil\.idea\contentModel.xml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: .idea\.idea.Nihil\.idea\workspace.xml
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\.idea\.idea.Nihil\.idea\workspace.xml
+      projectPath: .idea\.idea.Nihil\.idea\workspace.xml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Models\Torch.meta
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Models\Torch.meta
+      projectPath: Assets\Models\Torch.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Models\Torch\Torch.fbx.meta
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Models\Torch\Torch.fbx.meta
+      projectPath: Assets\Models\Torch\Torch.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes\main.unity
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Scenes\main.unity
+      projectPath: Assets\Scenes\main.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\FPS Controller.meta
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Scripts\FPS
+        Controller.meta
+      projectPath: Assets\Scripts\FPS Controller.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Scripts\Standard
+        Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs
+      projectPath: Assets\Scripts\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\CurrentLayout.dwlt
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\expandedItems
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\expandedItems
+      projectPath: Library\expandedItems
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gituser.yaml
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\gfu\cache\gituser.yaml
+      projectPath: Library\gfu\cache\gituser.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\05\05ec5cf00ca181d45a42ba1870e148c3
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\05\05ec5cf00ca181d45a42ba1870e148c3
+      projectPath: Library\metadata\05\05ec5cf00ca181d45a42ba1870e148c3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\0e\0eb58bb92603121458ea97907adfb549
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\0e\0eb58bb92603121458ea97907adfb549
+      projectPath: Library\metadata\0e\0eb58bb92603121458ea97907adfb549
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\0e\0eb58bb92603121458ea97907adfb549.info
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\0e\0eb58bb92603121458ea97907adfb549.info
+      projectPath: Library\metadata\0e\0eb58bb92603121458ea97907adfb549.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\a7\a7109f514b2f1224fbca591102d61be2
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\a7\a7109f514b2f1224fbca591102d61be2
+      projectPath: Library\metadata\a7\a7109f514b2f1224fbca591102d61be2
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\a7\a7109f514b2f1224fbca591102d61be2.info
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\a7\a7109f514b2f1224fbca591102d61be2.info
+      projectPath: Library\metadata\a7\a7109f514b2f1224fbca591102d61be2.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\b4\b44ded5796e6700469c1c63cfa45bddb
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\b4\b44ded5796e6700469c1c63cfa45bddb
+      projectPath: Library\metadata\b4\b44ded5796e6700469c1c63cfa45bddb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\b4\b44ded5796e6700469c1c63cfa45bddb.info
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\b4\b44ded5796e6700469c1c63cfa45bddb.info
+      projectPath: Library\metadata\b4\b44ded5796e6700469c1c63cfa45bddb.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Nihil.sln
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Nihil.sln
+      projectPath: Nihil.sln
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 686ce3f3b6ed105ebc06463351a54c876d8e8c9b
     mergeA: 
     mergeB: 
