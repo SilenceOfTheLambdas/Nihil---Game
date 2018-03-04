@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: -1697640569, guid: 7d3a677691631814c819f6c04b639945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastUpdatedAtString: 0001-01-01T00:00:00.0000000+00:00
-  lastVerifiedAtString: 0001-01-01T00:00:00.0000000+00:00
-  initializedAtString: 0001-01-01T00:00:00.0000000+00:00
-  gitName: 
-  gitEmail: 
+  lastUpdatedAtString: 2018-03-04T13:35:58.4471466+00:00
+  lastVerifiedAtString: 2018-03-04T14:57:13.7755283+00:00
+  initializedAtString: 2018-03-04T13:35:58.4266126+00:00
+  gitName: Callum Smith
+  gitEmail: techdragon@tuta.io
