@@ -11,10 +11,82 @@ MonoBehaviour:
   m_Script: {fileID: -530159753, guid: 7d3a677691631814c819f6c04b639945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastUpdatedAtString: 2018-03-04T15:24:30.4638119+00:00
-  lastVerifiedAtString: 2018-03-04T15:24:30.4638119+00:00
-  initializedAtString: 2018-03-04T15:24:22.4789297+00:00
+  lastUpdatedAtString: 2018-03-04T15:32:09.5783974+00:00
+  lastVerifiedAtString: 2018-03-04T15:32:09.5783974+00:00
+  initializedAtString: 2018-03-04T15:32:09.5783974+00:00
   log:
+  - commitID: f193d951cc06034b051fa4179c92b1b80bd8a4ed
+    mergeA: 
+    mergeB: 
+    authorName: Callum Smith
+    authorEmail: techdragon@tuta.io
+    commitEmail: techdragon@tuta.io
+    commitName: Callum Smith
+    summary: Added idditional files to gitignore
+    description: Added idditional files to gitignore
+    timeString: 2018-03-04T15:30:51.0000000+00:00
+    commitTimeString: 2018-03-04T15:30:51.0000000+00:00
+    changes:
+    - path: .gitignore
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\CurrentLayout.dwlt
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gituser.yaml
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\gfu\cache\gituser.yaml
+      projectPath: Library\gfu\cache\gituser.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\00\0000000000000000c000000000000000
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\00\0000000000000000c000000000000000
+      projectPath: Library\metadata\00\0000000000000000c000000000000000
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: ProjectSettings\EditorSettings.asset
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\ProjectSettings\EditorSettings.asset
+      projectPath: ProjectSettings\EditorSettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 8ff261f2eceee3d3d9254182f34aa7e95c7a9f8d
     mergeA: 
     mergeB: 
