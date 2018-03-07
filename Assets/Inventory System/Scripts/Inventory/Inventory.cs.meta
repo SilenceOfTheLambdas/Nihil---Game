@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 01861eba440b8cb4e90bafdad2b00d1a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - prefabCanvasWithPanel: {fileID: 100000, guid: 9d5134176cec6254a90845c160aaed68,
+      type: 2}
+  - prefabSlot: {fileID: 1470287422424364, guid: 86bd66a1aad581444a3c8b4999ca67b1,
+      type: 2}
+  - prefabSlotContainer: {fileID: 100000, guid: 2343060c43f7ce94f887882415313e92,
+      type: 2}
+  - prefabItem: {instanceID: 0}
+  - prefabDraggingItemContainer: {instanceID: 0}
+  - prefabPanel: {instanceID: 0}
+  - itemDatabase: {instanceID: 0}
+  - PanelRectTransform: {instanceID: 0}
+  - PanelImage: {instanceID: 0}
+  - SlotContainer: {instanceID: 0}
+  - DraggingItemContainer: {instanceID: 0}
+  - SlotContainerRectTransform: {instanceID: 0}
+  - SlotGridLayout: {instanceID: 0}
+  - SlotGridRectTransform: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

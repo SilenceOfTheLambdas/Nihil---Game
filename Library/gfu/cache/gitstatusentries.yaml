@@ -11,13 +11,941 @@ MonoBehaviour:
   m_Script: {fileID: 1038538317, guid: 7d3a677691631814c819f6c04b639945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastUpdatedAtString: 2018-03-04T17:10:41.9986196+00:00
-  lastVerifiedAtString: 2018-03-04T17:10:42.4492079+00:00
-  initializedAtString: 2018-03-04T15:41:17.6178917+00:00
+  lastUpdatedAtString: 2018-03-07T21:45:57.4551349+00:00
+  lastVerifiedAtString: 2018-03-07T21:45:57.4551349+00:00
+  initializedAtString: 2018-03-07T21:36:16.8992578+00:00
   entries:
+  - path: .idea\.idea.Nihil\.idea\contentModel.xml
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\.idea\.idea.Nihil\.idea\contentModel.xml
+    projectPath: .idea\.idea.Nihil\.idea\contentModel.xml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: .idea\.idea.Nihil\.idea\workspace.xml
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\.idea\.idea.Nihil\.idea\workspace.xml
+    projectPath: .idea\.idea.Nihil\.idea\workspace.xml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assembly-CSharp-firstpass.csproj
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assembly-CSharp-firstpass.csproj
+    projectPath: Assembly-CSharp-firstpass.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assembly-CSharp.csproj
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Plugins.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins.meta
+    projectPath: Assets\Plugins.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Plugins\Editor.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\Editor.meta
+    projectPath: Assets\Plugins\Editor.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\Editor\JetBrains.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\Editor\JetBrains.meta
+    projectPath: Assets\Plugins\Editor\JetBrains.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\Editor\JetBrains\Unity3DRider.cs
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\Editor\JetBrains\Unity3DRider.cs
+    projectPath: Assets\Plugins\Editor\JetBrains\Unity3DRider.cs
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\Editor\JetBrains\Unity3DRider.cs.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\Editor\JetBrains\Unity3DRider.cs.meta
+    projectPath: Assets\Plugins\Editor\JetBrains\Unity3DRider.cs.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+    projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\CREDITS.txt
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\CREDITS.txt
+    projectPath: Assets\Plugins\GitHub\Editor\CREDITS.txt
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\CREDITS.txt.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\CREDITS.txt.meta
+    projectPath: Assets\Plugins\GitHub\Editor\CREDITS.txt.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\DotNetHttp35.dll
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\DotNetHttp35.dll
+    projectPath: Assets\Plugins\GitHub\Editor\DotNetHttp35.dll
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\DotNetHttp35.dll.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\DotNetHttp35.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\DotNetHttp35.dll.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\EULA.txt
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\EULA.txt
+    projectPath: Assets\Plugins\GitHub\Editor\EULA.txt
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\EULA.txt.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\EULA.txt.meta
+    projectPath: Assets\Plugins\GitHub\Editor\EULA.txt.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll
+    projectPath: Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+    projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\Mono.Security.dll
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\Mono.Security.dll
+    projectPath: Assets\Plugins\GitHub\Editor\Mono.Security.dll
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\Mono.Security.dll.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\Mono.Security.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\Mono.Security.dll.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\Octokit.dll
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\Octokit.dll
+    projectPath: Assets\Plugins\GitHub\Editor\Octokit.dll
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\Octokit.dll.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\Octokit.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\Octokit.dll.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\PlatformResources.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\PlatformResources.meta
+    projectPath: Assets\Plugins\GitHub\Editor\PlatformResources.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\PlatformResources\mac.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\PlatformResources\mac.meta
+    projectPath: Assets\Plugins\GitHub\Editor\PlatformResources\mac.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\PlatformResources\mac\git-lfs.zip
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\PlatformResources\mac\git-lfs.zip
+    projectPath: Assets\Plugins\GitHub\Editor\PlatformResources\mac\git-lfs.zip
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\PlatformResources\mac\git-lfs.zip.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\PlatformResources\mac\git-lfs.zip.meta
+    projectPath: Assets\Plugins\GitHub\Editor\PlatformResources\mac\git-lfs.zip.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\PlatformResources\windows.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\PlatformResources\windows.meta
+    projectPath: Assets\Plugins\GitHub\Editor\PlatformResources\windows.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\PlatformResources\windows\git-lfs.zip
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\PlatformResources\windows\git-lfs.zip
+    projectPath: Assets\Plugins\GitHub\Editor\PlatformResources\windows\git-lfs.zip
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\PlatformResources\windows\git-lfs.zip.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\PlatformResources\windows\git-lfs.zip.meta
+    projectPath: Assets\Plugins\GitHub\Editor\PlatformResources\windows\git-lfs.zip.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\PlatformResources\windows\git.zip
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\PlatformResources\windows\git.zip
+    projectPath: Assets\Plugins\GitHub\Editor\PlatformResources\windows\git.zip
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\PlatformResources\windows\git.zip.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\PlatformResources\windows\git.zip.meta
+    projectPath: Assets\Plugins\GitHub\Editor\PlatformResources\windows\git.zip.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\Rackspace.Threading.dll
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\Rackspace.Threading.dll
+    projectPath: Assets\Plugins\GitHub\Editor\Rackspace.Threading.dll
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\Rackspace.Threading.dll.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\Rackspace.Threading.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\Rackspace.Threading.dll.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+    projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\System.Threading.dll
+    projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\libsfw.bundle
+    projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+    projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\libsfw.so
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\libsfw.so
+    projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+    projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\sfw.net.dll
+    projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+    projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Prefabs.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Prefabs.meta
+    projectPath: Assets\Prefabs.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets\Scenes\main.unity
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Scenes\main.unity
+    projectPath: Assets\Scenes\main.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\CurrentLayout.dwlt
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\CurrentLayout.dwlt
+    projectPath: Library\CurrentLayout.dwlt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll.mdb
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll.mdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\assetDatabase3
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\expandedItems
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\expandedItems
+    projectPath: Library\expandedItems
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Library\gfu\cache\branches.yaml
     fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
     originalPath: 
     status: 3
+    staged: 0
+  - path: Library\gfu\cache\gitlog.yaml
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\gfu\cache\gituser.yaml
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\gfu\cache\gituser.yaml
+    projectPath: Library\gfu\cache\gituser.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+    projectPath: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9.info
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9.info
+    projectPath: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\04\04a9b748e00a41546b9205a38215844e
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\04\04a9b748e00a41546b9205a38215844e
+    projectPath: Library\metadata\04\04a9b748e00a41546b9205a38215844e
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\11\11043fc3a881495409d0828a9dcb372e
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\11\11043fc3a881495409d0828a9dcb372e
+    projectPath: Library\metadata\11\11043fc3a881495409d0828a9dcb372e
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\11\11043fc3a881495409d0828a9dcb372e.info
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\11\11043fc3a881495409d0828a9dcb372e.info
+    projectPath: Library\metadata\11\11043fc3a881495409d0828a9dcb372e.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\12\12d3bc1e380eae04580553597d480289
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\12\12d3bc1e380eae04580553597d480289
+    projectPath: Library\metadata\12\12d3bc1e380eae04580553597d480289
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\12\12d3bc1e380eae04580553597d480289.info
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\12\12d3bc1e380eae04580553597d480289.info
+    projectPath: Library\metadata\12\12d3bc1e380eae04580553597d480289.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\13\136dc24f151211d438acee17aff4e934
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\13\136dc24f151211d438acee17aff4e934
+    projectPath: Library\metadata\13\136dc24f151211d438acee17aff4e934
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\13\136dc24f151211d438acee17aff4e934.info
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\13\136dc24f151211d438acee17aff4e934.info
+    projectPath: Library\metadata\13\136dc24f151211d438acee17aff4e934.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d
+    projectPath: Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d.info
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d.info
+    projectPath: Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\18\18eb894d53ff491408b69602eb959000
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\18\18eb894d53ff491408b69602eb959000
+    projectPath: Library\metadata\18\18eb894d53ff491408b69602eb959000
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\18\18eb894d53ff491408b69602eb959000.info
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\18\18eb894d53ff491408b69602eb959000.info
+    projectPath: Library\metadata\18\18eb894d53ff491408b69602eb959000.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\1b\1bf89c9fbca28724a8d8fbcf427c47f4
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\1b\1bf89c9fbca28724a8d8fbcf427c47f4
+    projectPath: Library\metadata\1b\1bf89c9fbca28724a8d8fbcf427c47f4
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\1b\1bf89c9fbca28724a8d8fbcf427c47f4.info
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\1b\1bf89c9fbca28724a8d8fbcf427c47f4.info
+    projectPath: Library\metadata\1b\1bf89c9fbca28724a8d8fbcf427c47f4.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db
+    projectPath: Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db.info
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db.info
+    projectPath: Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\23\23c8bee69b591054094d32918f98facd
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\23\23c8bee69b591054094d32918f98facd
+    projectPath: Library\metadata\23\23c8bee69b591054094d32918f98facd
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+    projectPath: Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\36\36f73b0d4842ba7448027c0215f522b1
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\36\36f73b0d4842ba7448027c0215f522b1
+    projectPath: Library\metadata\36\36f73b0d4842ba7448027c0215f522b1
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\36\36f73b0d4842ba7448027c0215f522b1.info
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\36\36f73b0d4842ba7448027c0215f522b1.info
+    projectPath: Library\metadata\36\36f73b0d4842ba7448027c0215f522b1.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0
+    projectPath: Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0.info
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0.info
+    projectPath: Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\4f\4fca670cc76b5b145b817a64c3b66d62
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\4f\4fca670cc76b5b145b817a64c3b66d62
+    projectPath: Library\metadata\4f\4fca670cc76b5b145b817a64c3b66d62
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\4f\4fca670cc76b5b145b817a64c3b66d62.info
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\4f\4fca670cc76b5b145b817a64c3b66d62.info
+    projectPath: Library\metadata\4f\4fca670cc76b5b145b817a64c3b66d62.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\59\598f7cc167e65424284e573aff0f1294
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\59\598f7cc167e65424284e573aff0f1294
+    projectPath: Library\metadata\59\598f7cc167e65424284e573aff0f1294
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\59\598f7cc167e65424284e573aff0f1294.info
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\59\598f7cc167e65424284e573aff0f1294.info
+    projectPath: Library\metadata\59\598f7cc167e65424284e573aff0f1294.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\63\636d33ae594884e7d80b569f429d245d
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\63\636d33ae594884e7d80b569f429d245d
+    projectPath: Library\metadata\63\636d33ae594884e7d80b569f429d245d
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\63\636d33ae594884e7d80b569f429d245d.info
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\63\636d33ae594884e7d80b569f429d245d.info
+    projectPath: Library\metadata\63\636d33ae594884e7d80b569f429d245d.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\67\67a48bef50c8f384ab614ca4fd2f1d25
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\67\67a48bef50c8f384ab614ca4fd2f1d25
+    projectPath: Library\metadata\67\67a48bef50c8f384ab614ca4fd2f1d25
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\67\67a48bef50c8f384ab614ca4fd2f1d25.info
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\67\67a48bef50c8f384ab614ca4fd2f1d25.info
+    projectPath: Library\metadata\67\67a48bef50c8f384ab614ca4fd2f1d25.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\79\790749ba7e4b18141953e39cb13f1b79
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\79\790749ba7e4b18141953e39cb13f1b79
+    projectPath: Library\metadata\79\790749ba7e4b18141953e39cb13f1b79
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\79\790749ba7e4b18141953e39cb13f1b79.info
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\79\790749ba7e4b18141953e39cb13f1b79.info
+    projectPath: Library\metadata\79\790749ba7e4b18141953e39cb13f1b79.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\7d\7d3a677691631814c819f6c04b639945
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\7d\7d3a677691631814c819f6c04b639945
+    projectPath: Library\metadata\7d\7d3a677691631814c819f6c04b639945
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\7d\7d3a677691631814c819f6c04b639945.info
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\7d\7d3a677691631814c819f6c04b639945.info
+    projectPath: Library\metadata\7d\7d3a677691631814c819f6c04b639945.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8
+    projectPath: Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8.info
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8.info
+    projectPath: Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\8b\8b6ed94912565574a87d96f5e04da3ef
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\8b\8b6ed94912565574a87d96f5e04da3ef
+    projectPath: Library\metadata\8b\8b6ed94912565574a87d96f5e04da3ef
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\8b\8b6ed94912565574a87d96f5e04da3ef.info
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\8b\8b6ed94912565574a87d96f5e04da3ef.info
+    projectPath: Library\metadata\8b\8b6ed94912565574a87d96f5e04da3ef.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\a1\a1ae072c6d0a6fe42881de7c5c8d66eb
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\a1\a1ae072c6d0a6fe42881de7c5c8d66eb
+    projectPath: Library\metadata\a1\a1ae072c6d0a6fe42881de7c5c8d66eb
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\a1\a1ae072c6d0a6fe42881de7c5c8d66eb.info
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\a1\a1ae072c6d0a6fe42881de7c5c8d66eb.info
+    projectPath: Library\metadata\a1\a1ae072c6d0a6fe42881de7c5c8d66eb.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\a7\a7b67de558b67c941a9799be9b887263
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\a7\a7b67de558b67c941a9799be9b887263
+    projectPath: Library\metadata\a7\a7b67de558b67c941a9799be9b887263
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\a7\a7b67de558b67c941a9799be9b887263.info
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\a7\a7b67de558b67c941a9799be9b887263.info
+    projectPath: Library\metadata\a7\a7b67de558b67c941a9799be9b887263.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\ad\ad5017bfa076cba4a840ab9f360f5a17
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\ad\ad5017bfa076cba4a840ab9f360f5a17
+    projectPath: Library\metadata\ad\ad5017bfa076cba4a840ab9f360f5a17
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\ad\ad5017bfa076cba4a840ab9f360f5a17.info
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\ad\ad5017bfa076cba4a840ab9f360f5a17.info
+    projectPath: Library\metadata\ad\ad5017bfa076cba4a840ab9f360f5a17.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\ba\ba8ad3e6c5be01e448c1f3593515049c
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\ba\ba8ad3e6c5be01e448c1f3593515049c
+    projectPath: Library\metadata\ba\ba8ad3e6c5be01e448c1f3593515049c
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\ba\ba8ad3e6c5be01e448c1f3593515049c.info
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\ba\ba8ad3e6c5be01e448c1f3593515049c.info
+    projectPath: Library\metadata\ba\ba8ad3e6c5be01e448c1f3593515049c.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26
+    projectPath: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+    projectPath: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae
+    projectPath: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae.info
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae.info
+    projectPath: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\ca\ca9ef9f91d24fab40addaf0deaf60506
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\ca\ca9ef9f91d24fab40addaf0deaf60506
+    projectPath: Library\metadata\ca\ca9ef9f91d24fab40addaf0deaf60506
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\ca\ca9ef9f91d24fab40addaf0deaf60506.info
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\ca\ca9ef9f91d24fab40addaf0deaf60506.info
+    projectPath: Library\metadata\ca\ca9ef9f91d24fab40addaf0deaf60506.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\ca\cab1a58660fb39f4f807d2ca2c727471
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\ca\cab1a58660fb39f4f807d2ca2c727471
+    projectPath: Library\metadata\ca\cab1a58660fb39f4f807d2ca2c727471
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\ca\cab1a58660fb39f4f807d2ca2c727471.info
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\ca\cab1a58660fb39f4f807d2ca2c727471.info
+    projectPath: Library\metadata\ca\cab1a58660fb39f4f807d2ca2c727471.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132
+    projectPath: Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132.info
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132.info
+    projectPath: Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c
+    projectPath: Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c.info
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c.info
+    projectPath: Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\ec\ecfb28d906a32914d956497c8d3b3395
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\ec\ecfb28d906a32914d956497c8d3b3395
+    projectPath: Library\metadata\ec\ecfb28d906a32914d956497c8d3b3395
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\ec\ecfb28d906a32914d956497c8d3b3395.info
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\ec\ecfb28d906a32914d956497c8d3b3395.info
+    projectPath: Library\metadata\ec\ecfb28d906a32914d956497c8d3b3395.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6
+    projectPath: Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6.info
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6.info
+    projectPath: Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Paper_Test.mat
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Paper_Test.mat
+    projectPath: Assets\Paper_Test.mat
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Paper_Test.mat.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Paper_Test.mat.meta
+    projectPath: Assets\Paper_Test.mat.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\LitJson.dll
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\LitJson.dll
+    projectPath: Assets\Plugins\LitJson.dll
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Plugins\LitJson.dll.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Plugins\LitJson.dll.meta
+    projectPath: Assets\Plugins\LitJson.dll.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Scripts.meta
+    projectPath: Assets\Scripts.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\Standard Assets.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Scripts\Standard
+      Assets.meta
+    projectPath: Assets\Scripts\Standard Assets.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\Standard Assets\Characters.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Scripts\Standard
+      Assets\Characters.meta
+    projectPath: Assets\Scripts\Standard Assets\Characters.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\Standard Assets\Characters\FirstPersonCharacter.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Scripts\Standard
+      Assets\Characters\FirstPersonCharacter.meta
+    projectPath: Assets\Scripts\Standard Assets\Characters\FirstPersonCharacter.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\Standard Assets\Characters\FirstPersonCharacter\Scripts.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Scripts\Standard
+      Assets\Characters\FirstPersonCharacter\Scripts.meta
+    projectPath: Assets\Scripts\Standard Assets\Characters\FirstPersonCharacter\Scripts.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\Standard Assets\CrossPlatformInput.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Scripts\Standard
+      Assets\CrossPlatformInput.meta
+    projectPath: Assets\Scripts\Standard Assets\CrossPlatformInput.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\Standard Assets\CrossPlatformInput\Scripts.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Scripts\Standard
+      Assets\CrossPlatformInput\Scripts.meta
+    projectPath: Assets\Scripts\Standard Assets\CrossPlatformInput\Scripts.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Scripts\Standard
+      Assets\CrossPlatformInput\Scripts\PlatformSpecific.meta
+    projectPath: Assets\Scripts\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\Standard Assets\Fonts.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Scripts\Standard
+      Assets\Fonts.meta
+    projectPath: Assets\Scripts\Standard Assets\Fonts.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\Standard Assets\Fonts\OpenSans.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Scripts\Standard
+      Assets\Fonts\OpenSans.meta
+    projectPath: Assets\Scripts\Standard Assets\Fonts\OpenSans.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scripts\Standard Assets\Utility.meta
+    fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Scripts\Standard
+      Assets\Utility.meta
+    projectPath: Assets\Scripts\Standard Assets\Utility.meta
+    originalPath: 
+    status: 1
     staged: 0

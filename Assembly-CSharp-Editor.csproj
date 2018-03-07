@@ -52,7 +52,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\OLDStandard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
+    <Compile Include="Assets\Inventory System\Editor\CraftSystemEditor.cs" />
+    <Compile Include="Assets\Inventory System\Editor\EquipmentSystemEditor.cs" />
+    <Compile Include="Assets\Inventory System\Editor\HotbarEditor.cs" />
+    <Compile Include="Assets\Inventory System\Editor\IM_Manager.cs" />
+    <Compile Include="Assets\Inventory System\Editor\InventoryDesignEditor.cs" />
+    <Compile Include="Assets\Inventory System\Editor\InventoryEditor.cs" />
+    <Compile Include="Assets\Inventory System\Editor\StorageInventoryEditor.cs" />
+    <Compile Include="Assets\Inventory System\Editor\TooltipEditor.cs" />
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -119,45 +126,6 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="AsyncBridge.Net35">
-      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll</HintPath>
-    </Reference>
-    <Reference Include="DotNetHttp35">
-      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/GitHub/Editor/DotNetHttp35.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.Api">
-      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/GitHub/Editor/GitHub.Api.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.Logging">
-      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.Unity">
-      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll</HintPath>
-    </Reference>
-    <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.Posix">
-      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/GitHub/Editor/Mono.Posix.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.Security">
-      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/GitHub/Editor/Mono.Security.dll</HintPath>
-    </Reference>
-    <Reference Include="Octokit">
-      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/GitHub/Editor/Octokit.dll</HintPath>
-    </Reference>
-    <Reference Include="Rackspace.Threading">
-      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/GitHub/Editor/Rackspace.Threading.dll</HintPath>
-    </Reference>
-    <Reference Include="ReadOnlyCollectionsInterfaces">
-      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll</HintPath>
-    </Reference>
-    <Reference Include="sfw.net">
-      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading">
-      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/GitHub/Editor/System.Threading.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>C:/Users/techd/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
@@ -179,8 +147,15 @@
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/techd/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
+    <Reference Include="LitJson">
+      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/LitJson.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{B78BEE38-1E85-34BD-07E7-BA1F9F4D91A4}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{CD1BB0DA-5CD3-3614-86BC-369070A97197}</Project>
       <Name>Assembly-CSharp</Name>

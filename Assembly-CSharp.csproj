@@ -52,47 +52,44 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\OLDStandard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\Utility\ActivateTrigger.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\Utility\AlphaButtonClickMask.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\Utility\AutoMobileShaderSwitch.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\Utility\AutoMoveAndRotate.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\Utility\CameraRefocus.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\Utility\CurveControlledBob.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\Utility\DragRigidbody.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\Utility\DynamicShadowSettings.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\Utility\EventSystemChecker.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\Utility\FollowTarget.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\Utility\ForcedReset.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\Utility\FOVKick.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\Utility\FPSCounter.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\Utility\LerpControlledBob.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\Utility\ObjectResetter.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\Utility\ParticleSystemDestroyer.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\Utility\PlatformSpecificContent.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\Utility\SimpleActivatorMenu.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\Utility\SimpleMouseRotator.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\Utility\SmoothFollow.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\Utility\TimedObjectActivator.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\Utility\TimedObjectDestructor.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\Utility\WaypointCircuit.cs" />
-    <Compile Include="Assets\Scripts\OLDStandard Assets\Utility\WaypointProgressTracker.cs" />
-    <None Include="Assets\Scripts\OLDStandard Assets\Fonts\OpenSans\License!.txt" />
-    <None Include="Assets\Scripts\OLDStandard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <Compile Include="Assets\Inventory System\Scripts\CraftSystem\Blueprint.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\CraftSystem\BlueprintDatabase.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\CraftSystem\CraftResultSlot.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\CraftSystem\CraftSystem.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\CraftSystem\CreateBlueprintDatabase.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\CraftSystem\LeftClick.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\CraftSystem\RightClick.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\ExampleScript\PlayerInventory.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\ExampleScript\RandomChestLootSystem.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\ExampleScript\RandomLootSystem.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\ExampleScript\WorkingStation.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\FirstPerson\FirstPersonController.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\Hotbar\Hotbar.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\Inventory\CloseInventory.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\Inventory\DesignForInventory.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\Inventory\DragInventory.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\Inventory\EquipmentSystem.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\Inventory\InputManager.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\Inventory\Inventory.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\Inventory\InventoryDesign.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\Inventory\StorageInventory.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\Item\ConsumeItem.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\Item\CreateAttributeDatabase.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\Item\CreateInputManager.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\Item\CreateItemDatabase.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\Item\DragItem.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\Item\Item.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\Item\ItemAttribute.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\Item\ItemAttributeList.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\Item\ItemDataBaseList.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\Item\ItemOnObject.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\Item\ItemType.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\Item\PickUpItem.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\Item\ShowTooltip.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\Item\SlotCover.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\Item\SplitItem.cs" />
+    <Compile Include="Assets\Inventory System\Scripts\Tooltip\Tooltip.cs" />
+    <None Include="Assets\Inventory System\readme.txt" />
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -159,45 +156,6 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="AsyncBridge.Net35">
-      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll</HintPath>
-    </Reference>
-    <Reference Include="DotNetHttp35">
-      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/GitHub/Editor/DotNetHttp35.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.Api">
-      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/GitHub/Editor/GitHub.Api.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.Logging">
-      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.Unity">
-      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll</HintPath>
-    </Reference>
-    <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.Posix">
-      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/GitHub/Editor/Mono.Posix.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.Security">
-      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/GitHub/Editor/Mono.Security.dll</HintPath>
-    </Reference>
-    <Reference Include="Octokit">
-      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/GitHub/Editor/Octokit.dll</HintPath>
-    </Reference>
-    <Reference Include="Rackspace.Threading">
-      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/GitHub/Editor/Rackspace.Threading.dll</HintPath>
-    </Reference>
-    <Reference Include="ReadOnlyCollectionsInterfaces">
-      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll</HintPath>
-    </Reference>
-    <Reference Include="sfw.net">
-      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading">
-      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/GitHub/Editor/System.Threading.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>C:/Users/techd/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
@@ -219,6 +177,15 @@
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/techd/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
+    <Reference Include="LitJson">
+      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/LitJson.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{B78BEE38-1E85-34BD-07E7-BA1F9F4D91A4}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
