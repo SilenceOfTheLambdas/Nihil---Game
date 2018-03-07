@@ -11,10 +11,94 @@ MonoBehaviour:
   m_Script: {fileID: -530159753, guid: 7d3a677691631814c819f6c04b639945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lastUpdatedAtString: 2018-03-04T17:10:42.7517460+00:00
-  lastVerifiedAtString: 2018-03-04T17:10:42.7517460+00:00
-  initializedAtString: 2018-03-04T15:38:41.4853729+00:00
+  lastUpdatedAtString: 2018-03-07T21:42:29.7073575+00:00
+  lastVerifiedAtString: 2018-03-07T21:42:29.7073575+00:00
+  initializedAtString: 2018-03-07T21:36:16.8067759+00:00
   log:
+  - commitID: df51429a98bc1bb82422c98ea742d459d61acb29
+    mergeA: 
+    mergeB: 
+    authorName: Callum Smith
+    authorEmail: techdragon@tuta.io
+    commitEmail: techdragon@tuta.io
+    commitName: Callum Smith
+    summary: Some useless meta updates
+    description: "Some useless meta updates\r\n"
+    timeString: 2018-03-07T21:32:51.0000000+00:00
+    commitTimeString: 2018-03-07T21:32:51.0000000+00:00
+    changes:
+    - path: Assets\Scripts.meta
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Assets\Scripts.meta
+      projectPath: Assets\Scripts.meta
+      originalPath: 
+      status: 5
+      staged: 0
+  - commitID: 478053369cfc05d566df8a95dff0afe9a76d50f5
+    mergeA: 
+    mergeB: 
+    authorName: Callum Smith
+    authorEmail: techdragon@tuta.io
+    commitEmail: techdragon@tuta.io
+    commitName: Callum Smith
+    summary: Added .idea to gitignore
+    description: Added .idea to gitignore
+    timeString: 2018-03-04T17:27:02.0000000+00:00
+    commitTimeString: 2018-03-04T17:27:02.0000000+00:00
+    changes:
+    - path: .gitignore
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: .idea\.idea.Nihil\.idea\contentModel.xml
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\.idea\.idea.Nihil\.idea\contentModel.xml
+      projectPath: .idea\.idea.Nihil\.idea\contentModel.xml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: .idea\.idea.Nihil\.idea\workspace.xml
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\.idea\.idea.Nihil\.idea\workspace.xml
+      projectPath: .idea\.idea.Nihil\.idea\workspace.xml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\CurrentLayout.dwlt
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\expandedItems
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\expandedItems
+      projectPath: Library\expandedItems
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 9ba05daff798bc5e6d47f119e20cb15944106d5f
     mergeA: 
     mergeB: 
