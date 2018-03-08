@@ -96,10 +96,7 @@ public class Inventory : MonoBehaviour
     public static event InventoryOpened AllInventoriesClosed;
     
     void Start()
-    {
-        if (transform.GetComponent<Hotbar>() == null)
-            this.gameObject.SetActive(false);
-        
+    {   
         updateItemList();
         inputManagerDatabase = (InputManager)Resources.Load("InputManager");
     }
@@ -318,7 +315,7 @@ public class Inventory : MonoBehaviour
 
     public void setDefaultSettings()
     {
-        if (GetComponent<EquipmentSystem>() == null && GetComponent<Hotbar>() == null && GetComponent<CraftSystem>() == null)
+        if (GetComponent<EquipmentSystem>() == null && GetComponent<CraftSystem>() == null)
         {
             height = 5;
             width = 5;
@@ -329,21 +326,6 @@ public class Inventory : MonoBehaviour
             paddingBetweenX = 5;
             paddingBetweenY = 5;
             paddingTop = 35;
-            paddingBottom = 10;
-            paddingLeft = 10;
-            paddingRight = 10;
-        }
-        else if (GetComponent<Hotbar>() != null)
-        {
-            height = 1;
-            width = 9;
-
-            slotSize = 50;
-            iconSize = 45;
-
-            paddingBetweenX = 5;
-            paddingBetweenY = 5;
-            paddingTop = 10;
             paddingBottom = 10;
             paddingLeft = 10;
             paddingRight = 10;
@@ -590,8 +572,6 @@ public class Inventory : MonoBehaviour
                 {
                     ItemsInInventory[i].itemValue = stack;
                     GameObject temp = getItemGameObject(ItemsInInventory[i]);
-                    if (temp != null && temp.GetComponent<ConsumeItem>().duplication != null)
-                        temp.GetComponent<ConsumeItem>().duplication.GetComponent<ItemOnObject>().item.itemValue = stack;
                     return true;
                 }
             }

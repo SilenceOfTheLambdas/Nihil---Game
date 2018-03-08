@@ -16,11 +16,6 @@ public class EquipmentSystem : MonoBehaviour
     [SerializeField]
     public ItemType[] itemTypeOfSlots = new ItemType[999];
 
-    void Start()
-    {
-        ConsumeItem.eS = GetComponent<EquipmentSystem>();
-    }
-
     public void getSlotsInTotal()
     {
         Inventory inv = GetComponent<Inventory>();

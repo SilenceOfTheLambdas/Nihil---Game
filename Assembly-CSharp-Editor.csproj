@@ -54,7 +54,6 @@
   <ItemGroup>
     <Compile Include="Assets\Inventory System\Editor\CraftSystemEditor.cs" />
     <Compile Include="Assets\Inventory System\Editor\EquipmentSystemEditor.cs" />
-    <Compile Include="Assets\Inventory System\Editor\HotbarEditor.cs" />
     <Compile Include="Assets\Inventory System\Editor\IM_Manager.cs" />
     <Compile Include="Assets\Inventory System\Editor\InventoryDesignEditor.cs" />
     <Compile Include="Assets\Inventory System\Editor\InventoryEditor.cs" />
@@ -126,6 +125,9 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="LitJson">
+      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/LitJson.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>C:/Users/techd/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
@@ -146,9 +148,6 @@
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/techd/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="LitJson">
-      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/LitJson.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

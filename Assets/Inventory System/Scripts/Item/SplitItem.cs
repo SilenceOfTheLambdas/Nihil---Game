@@ -18,7 +18,7 @@ public class SplitItem : MonoBehaviour, IPointerDownHandler
     public void OnPointerDown(PointerEventData data)                    //splitting the item now
     {
         inv = transform.parent.parent.parent.GetComponent<Inventory>();
-        if (transform.parent.parent.parent.GetComponent<Hotbar>() == null && data.button == PointerEventData.InputButton.Left && pressingButtonToSplit && inv.stackable && (inv.ItemsInInventory.Count < (inv.height * inv.width))) //if you press leftclick and and keycode
+        if (data.button == PointerEventData.InputButton.Left && pressingButtonToSplit && inv.stackable && (inv.ItemsInInventory.Count < (inv.height * inv.width))) //if you press leftclick and and keycode
         {
             ItemOnObject itemOnObject = GetComponent<ItemOnObject>();                                                   //we take the ItemOnObject script of the item in the slot
 
@@ -30,13 +30,6 @@ public class SplitItem : MonoBehaviour, IPointerDownHandler
 
                 inv.addItemToInventory(itemOnObject.item.itemID, splitPart);                                            //and add a new item to the inventory
                 inv.stackableSettings();
-
-                if (GetComponent<ConsumeItem>().duplication != null)
-                {
-                    GameObject dup = GetComponent<ConsumeItem>().duplication;
-                    dup.GetComponent<ItemOnObject>().item.itemValue = itemOnObject.item.itemValue;
-                    dup.GetComponent<SplitItem>().inv.stackableSettings();
-                }
                 inv.updateItemList();
 
             }

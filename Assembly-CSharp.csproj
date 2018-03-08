@@ -64,7 +64,6 @@
     <Compile Include="Assets\Inventory System\Scripts\ExampleScript\RandomLootSystem.cs" />
     <Compile Include="Assets\Inventory System\Scripts\ExampleScript\WorkingStation.cs" />
     <Compile Include="Assets\Inventory System\Scripts\FirstPerson\FirstPersonController.cs" />
-    <Compile Include="Assets\Inventory System\Scripts\Hotbar\Hotbar.cs" />
     <Compile Include="Assets\Inventory System\Scripts\Inventory\CloseInventory.cs" />
     <Compile Include="Assets\Inventory System\Scripts\Inventory\DesignForInventory.cs" />
     <Compile Include="Assets\Inventory System\Scripts\Inventory\DragInventory.cs" />
@@ -73,7 +72,6 @@
     <Compile Include="Assets\Inventory System\Scripts\Inventory\Inventory.cs" />
     <Compile Include="Assets\Inventory System\Scripts\Inventory\InventoryDesign.cs" />
     <Compile Include="Assets\Inventory System\Scripts\Inventory\StorageInventory.cs" />
-    <Compile Include="Assets\Inventory System\Scripts\Item\ConsumeItem.cs" />
     <Compile Include="Assets\Inventory System\Scripts\Item\CreateAttributeDatabase.cs" />
     <Compile Include="Assets\Inventory System\Scripts\Item\CreateInputManager.cs" />
     <Compile Include="Assets\Inventory System\Scripts\Item\CreateItemDatabase.cs" />
@@ -156,6 +154,9 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="LitJson">
+      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/LitJson.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>C:/Users/techd/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
@@ -176,9 +177,6 @@
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/techd/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="LitJson">
-      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Assets/Plugins/LitJson.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

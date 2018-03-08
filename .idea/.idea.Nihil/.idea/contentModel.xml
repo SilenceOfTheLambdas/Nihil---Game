@@ -4,20 +4,75 @@
     <e p="C:\Users\techd\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_Nihil.496587456.00" t="ExcludeRecursive" />
     <e p="C:\Users\techd\Documents\MAIN NIHIL GAME\Nihil" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="CollectPapers.cs" t="Include" />
+        <e p="Inventory System" t="Include">
+          <e p="Editor" t="Include">
+            <e p="CraftSystemEditor.cs" t="Include" />
+            <e p="EquipmentSystemEditor.cs" t="Include" />
+            <e p="IM_Manager.cs" t="Include" />
+            <e p="InventoryDesignEditor.cs" t="Include" />
+            <e p="InventoryEditor.cs" t="Include" />
+            <e p="StorageInventoryEditor.cs" t="Include" />
+            <e p="TooltipEditor.cs" t="Include" />
+          </e>
+          <e p="readme.txt" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="CraftSystem" t="Include">
+              <e p="Blueprint.cs" t="Include" />
+              <e p="BlueprintDatabase.cs" t="Include" />
+              <e p="CraftResultSlot.cs" t="Include" />
+              <e p="CraftSystem.cs" t="Include" />
+              <e p="CreateBlueprintDatabase.cs" t="Include" />
+              <e p="LeftClick.cs" t="Include" />
+              <e p="RightClick.cs" t="Include" />
+            </e>
+            <e p="ExampleScript" t="Include">
+              <e p="PlayerInventory.cs" t="Include" />
+              <e p="RandomChestLootSystem.cs" t="Include" />
+              <e p="RandomLootSystem.cs" t="Include" />
+              <e p="WorkingStation.cs" t="Include" />
+            </e>
+            <e p="FirstPerson" t="Include">
+              <e p="FirstPersonController.cs" t="Include" />
+            </e>
+            <e p="Inventory" t="Include">
+              <e p="CloseInventory.cs" t="Include" />
+              <e p="DesignForInventory.cs" t="Include" />
+              <e p="DragInventory.cs" t="Include" />
+              <e p="EquipmentSystem.cs" t="Include" />
+              <e p="InputManager.cs" t="Include" />
+              <e p="Inventory.cs" t="Include" />
+              <e p="InventoryDesign.cs" t="Include" />
+              <e p="StorageInventory.cs" t="Include" />
+            </e>
+            <e p="Item" t="Include">
+              <e p="CreateAttributeDatabase.cs" t="Include" />
+              <e p="CreateInputManager.cs" t="Include" />
+              <e p="CreateItemDatabase.cs" t="Include" />
+              <e p="DragItem.cs" t="Include" />
+              <e p="Item.cs" t="Include" />
+              <e p="ItemAttribute.cs" t="Include" />
+              <e p="ItemAttributeList.cs" t="Include" />
+              <e p="ItemDataBaseList.cs" t="Include" />
+              <e p="ItemOnObject.cs" t="Include" />
+              <e p="ItemType.cs" t="Include" />
+              <e p="PickUpItem.cs" t="Include" />
+              <e p="ShowTooltip.cs" t="Include" />
+              <e p="SlotCover.cs" t="Include" />
+              <e p="SplitItem.cs" t="Include" />
+            </e>
+            <e p="Tooltip" t="Include">
+              <e p="Tooltip.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Plugins" t="Include">
           <e p="Editor" t="Include">
             <e p="JetBrains" t="Include">
               <e p="Unity3DRider.cs" t="Include" />
-            </e>
-          </e>
-          <e p="GitHub" t="Include">
-            <e p="Editor" t="Include">
-              <e p="CREDITS.txt" t="Include" />
-              <e p="EULA.txt" t="Include" />
             </e>
           </e>
         </e>

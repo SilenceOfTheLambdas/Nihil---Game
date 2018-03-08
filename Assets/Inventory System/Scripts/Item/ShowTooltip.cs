@@ -24,9 +24,6 @@ public class ShowTooltip : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         canvasRectTransform = GameObject.FindGameObjectWithTag("Canvas").GetComponent<RectTransform>() as RectTransform;
     }
 
-
-
-
     public void OnPointerEnter(PointerEventData data)                               //if you hit a item in the slot
     {
         if (tooltip != null)
@@ -42,14 +39,6 @@ public class ShowTooltip : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
             GetComponent<RectTransform>().GetWorldCorners(slotCorners); //get the corners of the slot                
 
             Vector2 localPointerPosition;
-            if (RectTransformUtility.ScreenPointToLocalPointInRectangle(canvasRectTransform, slotCorners[3], data.pressEventCamera, out localPointerPosition))   // and set the localposition of the tooltip...
-            {
-                if (transform.parent.parent.parent.GetComponent<Hotbar>() == null)
-                    tooltipRectTransform.localPosition = localPointerPosition;          //at the right bottom side of the slot
-                else
-                    tooltipRectTransform.localPosition = new Vector3(localPointerPosition.x, localPointerPosition.y + tooltip.tooltipHeight);
-            }
-
         }
 
     }
