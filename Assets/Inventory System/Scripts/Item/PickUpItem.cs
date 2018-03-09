@@ -17,7 +17,7 @@ public class PickUpItem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (_inventory != null && Input.GetKeyDown(KeyCode.E))
+        if (_inventory != null && Input.GetKeyDown(KeyCode.F))
         {
             float distance = Vector3.Distance(this.gameObject.transform.position, _player.transform.position);
 

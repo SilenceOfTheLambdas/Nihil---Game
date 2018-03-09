@@ -614,7 +614,7 @@ public class Inventory : MonoBehaviour
                 else
                     itemOnObject.item.itemValue = 1;
                 item.transform.SetParent(SlotContainer.transform.GetChild(i));
-                item.GetComponent<RectTransform>().localPosition = Vector3.zero;
+                item.GetComponent<RectTransform>().localPosition = Vector3.one;
                 item.transform.GetChild(0).GetComponent<Image>().sprite = itemOnObject.item.itemIcon;
                 itemOnObject.item.indexItemInList = ItemsInInventory.Count - 1;
                 if (inputManagerDatabase == null)

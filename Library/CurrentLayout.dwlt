@@ -360,19 +360,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Inventory System/Scripts/Item
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Inventory System/Scripts/Item
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\techd\Documents\MAIN NIHIL GAME\nihil
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 38280000
-    m_LastClickedID: 10296
-    m_ExpandedIDs: 0000000038280000642a00006e2a0000142b00002e2b0000882b0000be2b0000982c0000642d00002a2e0000cc2f0000d22f0000543000000c3500000e3500001035000012350000143500001635000000ca9a3bffffff7f
+    m_SelectedIDs: bc300000
+    m_LastClickedID: 12476
+    m_ExpandedIDs: 0000000032280000502a00005a2a0000fe2a0000182b0000722b0000a82b0000822c00004e2d0000142e0000b62f0000bc2f00003e300000e0340000e2340000e4340000e6340000e8340000ea34000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -400,7 +400,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000038280000642a00006e2a0000142b00002e2b0000882b0000be2b0000982c0000642d00002a2e0000cc2f0000d22f0000543000000c3500000e35000010350000123500001435000016350000
+    m_ExpandedIDs: 0000000032280000502a00005a2a0000fe2a0000182b0000722b0000a82b0000822c00004e2d0000142e0000b62f0000bc2f00003e300000e0340000e2340000e4340000e6340000e8340000ea340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -428,7 +428,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300002c3400009c280000
+    m_ExpandedInstanceIDs: c62300002c3400009c280000742d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -518,9 +518,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 5e320000
-    m_LastClickedID: 12894
-    m_ExpandedIDs: 9efbffff00000000c23100000c32000080320000
+    m_SelectedIDs: 5a320000
+    m_LastClickedID: 12890
+    m_ExpandedIDs: 6497fbff9efbffff0000000094310000de310000f631000030320000523200005a32000068320000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -576,9 +576,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 620.60394, y: 300.45612, z: -3.9733582}
+    m_Target: {x: 503.46088, y: 359.76837, z: 180.87984}
     speed: 2
-    m_Value: {x: 620.60394, y: 300.45612, z: -3.9733582}
+    m_Value: {x: 503.46088, y: 359.76837, z: 180.87984}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -606,15 +606,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 694.16705
+    m_Target: 141.62064
     speed: 2
-    m_Value: 694.16705
+    m_Value: 141.62064
   m_Ortho:
     m_Target: 1
     speed: 2
     m_Value: 1
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: 0.23356748, y: -0.48261404, z: 0.13528863, w: 0.83320284}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 

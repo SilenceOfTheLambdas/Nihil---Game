@@ -68,23 +68,10 @@ public class PlayerInventory : MonoBehaviour
 
     void OnBackpack(Item item)
     {
-        if (item.itemType == ItemType.Backpack)
-        {
-            for (int i = 0; i < item.itemAttributes.Count; i++)
-            {
-                if (mainInventory == null)
-                    mainInventory = inventory.GetComponent<Inventory>();
-                mainInventory.sortItems();
-                if (item.itemAttributes[i].attributeName == "Slots")
-                    changeInventorySize(item.itemAttributes[i].attributeValue);
-            }
-        }
     }
 
     void UnEquipBackpack(Item item)
     {
-        if (item.itemType == ItemType.Backpack)
-            changeInventorySize(normalSize);
     }
 
     void changeInventorySize(int size)
