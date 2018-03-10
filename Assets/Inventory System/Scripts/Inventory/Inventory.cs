@@ -152,7 +152,7 @@ public class Inventory : MonoBehaviour
             this.gameObject.SetActive(false);
             MouseLook.lockCursor = true;
             Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
+            Cursor.visible = false;
             checkIfAllInventoryClosed();
         }
 
@@ -168,11 +168,11 @@ public class Inventory : MonoBehaviour
                 Cursor.visible = true;
                 MouseLook.lockCursor = false;
             }
-            else if (this.gameObject.activeSelf)
+            else if (!this.gameObject.activeSelf)
             {
                 MouseLook.lockCursor = true;
-                Cursor.lockState = CursorLockMode.None;
-                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
             }
         }
     
@@ -615,6 +615,7 @@ public class Inventory : MonoBehaviour
                     itemOnObject.item.itemValue = 1;
                 item.transform.SetParent(SlotContainer.transform.GetChild(i));
                 item.GetComponent<RectTransform>().localPosition = Vector3.one;
+                item.GetComponent<RectTransform>().localScale = Vector3.one;
                 item.transform.GetChild(0).GetComponent<Image>().sprite = itemOnObject.item.itemIcon;
                 itemOnObject.item.indexItemInList = ItemsInInventory.Count - 1;
                 if (inputManagerDatabase == null)

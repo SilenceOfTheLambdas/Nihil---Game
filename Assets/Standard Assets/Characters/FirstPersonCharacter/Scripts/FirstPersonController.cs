@@ -74,6 +74,7 @@ namespace Standard_Assets.Characters.FirstPersonCharacter.Scripts
             m_AudioSource = GetComponent<AudioSource>();
             m_MouseLook.Init(transform, m_Camera.transform);
             characterCollider = GetComponent<CharacterController>();
+            m_MouseLook.SetCursorLock(true);
         } 
         // Update is called once per frame
         private void Update()

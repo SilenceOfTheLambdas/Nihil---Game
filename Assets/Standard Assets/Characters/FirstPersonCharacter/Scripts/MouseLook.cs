@@ -14,12 +14,12 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public float MaximumX = 90F;
         public bool smooth;
         public float smoothTime = 5f;
-        public static bool lockCursor = true;
+        [SerializeField]public static bool lockCursor = true;
 
 
         private Quaternion m_CharacterTargetRot;
         private Quaternion m_CameraTargetRot;
-        private bool m_cursorIsLocked = true;
+        [SerializeField]private bool m_cursorIsLocked = true;
 
         public void Init(Transform character, Transform camera)
         {
@@ -86,6 +86,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             if (m_cursorIsLocked)
             {
                 Cursor.lockState = CursorLockMode.Locked;
+                MouseLook.lockCursor = true;
                 Cursor.visible = false;
             }
             else if (!m_cursorIsLocked)
