@@ -39,31 +39,18 @@ MonoBehaviour:
     indexItemInList: 999
     rarity: 1
     itemAttributes: []
-  - itemName: 'Paper #1'
-    itemID: 2
-    itemDesc: 'Test Test Test Test Test Test Test Test Test Test Test Test Test Test
-      Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test
-      Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test
-      Test '
-    itemIcon: {fileID: 21300000, guid: eaff2ac054e00ed4d8702eaab2072e7c, type: 3}
-    itemModel: {fileID: 0}
-    itemValue: 1
-    itemType: 0
-    itemWeight: 0
-    maxStack: 1
-    indexItemInList: 999
-    rarity: 0
-    itemAttributes: []
   - itemName: Paper
-    itemID: 3
-    itemDesc: 'Test Paper Test Paper Test Paper Test Paper Test Paper Test Paper Test
-      Paper Test Paper Test Paper Test Paper Test Paper Test Paper Test Paper Test
-      Paper Test Paper Test Paper Test Paper Test Paper Test Paper Test Paper Test
-      Paper Test Paper Test Paper Test Paper Test Paper Test Paper Test Paper Test
-      Paper Test Paper Test Paper Test Paper Test Paper Test Paper Test Paper Test
-      Paper Test Paper Test Paper Test Paper Test Paper Test Paper Test Paper Test
-      Paper Test Paper Test Paper Test Paper '
-    itemIcon: {fileID: 21300000, guid: f0c48c686a00f3d4a98475622585be73, type: 3}
+    itemID: 2
+    itemDesc: 'Date: March 23rd 1975
+
+
+      Dr Liam Patrick
+
+
+      I have witnessed horrible sighting in the subjects body; both mind and soul.
+
+'
+    itemIcon: {fileID: 21300000, guid: 7f7c048ef1f3f73489c390192c4412ac, type: 3}
     itemModel: {fileID: 0}
     itemValue: 1
     itemType: 2
