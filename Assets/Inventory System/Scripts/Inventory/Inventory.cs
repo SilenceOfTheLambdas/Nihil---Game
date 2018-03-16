@@ -68,26 +68,19 @@ using UnityStandardAssets.Characters.FirstPerson;
             public static event InventoryOpened InventoryOpen;
             public static event InventoryOpened AllInventoriesClosed;
 
-            //Set wether the character can move when the inventory is open
-            private bool canCharMove = true;
-
             void Start()
             {
                 updateItemList();
                 inputManagerDatabase = (InputManager) Resources.Load("InputManager");
             }
 
-            void charMoveUpdate()
+            void charMoveUpdate(bool allowControl)
             {
-                if (this.gameObject.active == true)
-                {
-                    canCharMove = false;
-                }
+                CharacterController motor = GameObject.FindObjectOfType<CharacterController>();
+                var playerLook = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<MouseLook>();//MOUSE LOOK NOT WORKING
 
-                if (canCharMove == false)
-                {
-                    Object.FindObjectOfType<CharacterController>().enabled = false;
-                }
+                playerLook.clampVerticalRotation = true;
+                motor.enabled = allowControl;
             }
 
             public void sortItems()
@@ -144,6 +137,7 @@ using UnityStandardAssets.Characters.FirstPerson;
                 MouseLook.lockCursor = true;
                 Cursor.lockState = CursorLockMode.None;
                 Cursor.visible = false;
+                charMoveUpdate(true);
                 checkIfAllInventoryClosed();
             }
 
@@ -159,14 +153,15 @@ using UnityStandardAssets.Characters.FirstPerson;
                     Cursor.visible = true;
                     MouseLook.lockCursor = false;
 
-                    GameObject inventory = GameObject.FindGameObjectWithTag("CharacterController");
-                    inventory.active = false;
+                    charMoveUpdate(false);
                 }
                 else if (!this.gameObject.activeSelf)
                 {
                     MouseLook.lockCursor = true;
                     Cursor.lockState = CursorLockMode.Locked;
                     Cursor.visible = false;
+                    
+                    charMoveUpdate(true);
                 }
             }
 
