@@ -77,9 +77,9 @@ using UnityStandardAssets.Characters.FirstPerson;
             void charMoveUpdate(bool allowControl)
             {
                 CharacterController motor = GameObject.FindObjectOfType<CharacterController>();
-                var playerLook = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<MouseLook>();//MOUSE LOOK NOT WORKING
+                //var playerLook = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<MouseLook>();//MOUSE LOOK NOT WORKING
 
-                playerLook.clampVerticalRotation = true;
+               // playerLook.clampVerticalRotation = true;
                 motor.enabled = allowControl;
             }
 

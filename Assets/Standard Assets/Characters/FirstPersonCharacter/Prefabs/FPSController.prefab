@@ -235,6 +235,7 @@ MonoBehaviour:
     MaximumX: 90
     smooth: 0
     smoothTime: 5
+    m_cursorIsLocked: 1
   m_UseFovKick: 0
   m_FovKick:
     Camera: {fileID: 0}
@@ -260,7 +261,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  m_UseHeadBob: 1
+  m_UseHeadBob: 0
   m_HeadBob:
     HorizontalBobRange: 0.1
     VerticalBobRange: 0.1
@@ -357,5 +358,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventory: {fileID: 0}
-  characterSystem: {fileID: 0}
-  currentHealth: 60
+  characterSystem: {fileID: 100000}
+  currentHealth: 100

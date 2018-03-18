@@ -30,6 +30,7 @@
               <e p="RightClick.cs" t="Include" />
             </e>
             <e p="ExampleScript" t="Include">
+              <e p="EnemyInventory.cs" t="Include" />
               <e p="PlayerInventory.cs" t="Include" />
               <e p="RandomChestLootSystem.cs" t="Include" />
               <e p="RandomLootSystem.cs" t="Include" />
@@ -74,6 +75,11 @@
             <e p="JetBrains" t="Include">
               <e p="Unity3DRider.cs" t="Include" />
             </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Enemy" t="Include">
+            <e p="EnemyMovement.cs" t="Include" />
           </e>
         </e>
         <e p="Standard Assets" t="Include">
