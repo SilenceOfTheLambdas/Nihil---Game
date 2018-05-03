@@ -13,13 +13,14 @@ GameObject:
   - component: {fileID: 5400000}
   - component: {fileID: 8200000}
   - component: {fileID: 114306312654707330}
+  - component: {fileID: 114623685809702786}
   m_Layer: 0
   m_Name: FPSController
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &100002
 GameObject:
   m_ObjectHideFlags: 0
@@ -45,7 +46,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.8685272, y: 1, z: 2.3769298}
+  m_LocalPosition: {x: 3.8685272, y: 3.59, z: 2.3769298}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400002}
@@ -360,3 +361,14 @@ MonoBehaviour:
   inventory: {fileID: 0}
   characterSystem: {fileID: 100000}
   currentHealth: 100
+--- !u!114 &114623685809702786
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6e7c60517cd20048b6562db1bea2572, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
