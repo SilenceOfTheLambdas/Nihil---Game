@@ -1,3 +1,4 @@
+using NUnit.Framework;
 using UnityEngine;
 using UnityStandardAssets.Characters.FirstPerson;
 using UnityStandardAssets.CrossPlatformInput;
@@ -22,15 +23,15 @@ namespace Standard_Assets.Characters.FirstPersonCharacter.Scripts
         [SerializeField]private float m_setRunSpeed;
         
         [Header("Sets the run time; both values MUST be the SAME.")]
-        [SerializeField] [Range(0f, 8f)] private float m_runTime = 8f;
-        [SerializeField] [Range(0f, 8f)] public float  m_setRunTime;
+        [SerializeField] [UnityEngine.Range(0f, 8f)] private float m_runTime = 8f;
+        [SerializeField] [UnityEngine.Range(0f, 8f)] public float  m_setRunTime;
         
         [Header("Sets the character height when crouched and the default char height.")]
         public float setCharHeight;
         public float DefualtCharheight = 1.8f;
         
         // Unity created vars
-        [SerializeField] [Range(0f, 1f)] private float m_RunstepLenghten;
+        [SerializeField] [UnityEngine.Range(0f, 1f)] private float m_RunstepLenghten;
         [SerializeField] private float m_JumpSpeed;
         [SerializeField] private float m_StickToGroundForce;
         [SerializeField] private float m_GravityMultiplier;

@@ -1,17 +1,15 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityStandardAssets.Characters.FirstPerson;
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
-using UnityEngine.UI;
-using System.Collections.Generic;
-using System.Runtime.CompilerServices;
-using JetBrains.Annotations;
-using UnityStandardAssets.CrossPlatformInput;
-using UnityStandardAssets.Characters.FirstPerson;
 
-        public class Inventory : MonoBehaviour
+public class Inventory : MonoBehaviour
         {
+            // The manager that controlls the First Person Controller Script
+            [SerializeField] public GameObject Manager;
             //Prefabs
             [SerializeField] private GameObject prefabCanvasWithPanel;
             [SerializeField] private GameObject prefabSlot;
@@ -40,6 +38,7 @@ using UnityStandardAssets.Characters.FirstPerson;
             [SerializeField] public int width;
             [SerializeField] public bool stackable;
             [SerializeField] public static bool inventoryOpen;
+
 
 
             //GUI Settings
@@ -72,11 +71,12 @@ using UnityStandardAssets.Characters.FirstPerson;
             {
                 updateItemList();
                 inputManagerDatabase = (InputManager) Resources.Load("InputManager");
+                Manager.SetActive(true);
             }
 
             void charMoveUpdate(bool allowControl)
             {
-                CharacterController motor = GameObject.FindObjectOfType<CharacterController>();
+                CharacterController motor = FindObjectOfType<CharacterController>();
                 //var playerLook = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<MouseLook>();//MOUSE LOOK NOT WORKING
 
                // playerLook.clampVerticalRotation = true;
@@ -121,9 +121,9 @@ using UnityStandardAssets.Characters.FirstPerson;
             public void setAsMain()
             {
                 if (mainInventory)
-                    this.gameObject.tag = "Untagged";
+                    gameObject.tag = "Untagged";
                 else if (!mainInventory)
-                    this.gameObject.tag = "MainInventory";
+                    gameObject.tag = "MainInventory";
             }
 
             public void OnUpdateItemList()
@@ -133,7 +133,7 @@ using UnityStandardAssets.Characters.FirstPerson;
 
             public void closeInventory()
             {
-                this.gameObject.SetActive(false);
+                gameObject.SetActive(false);
                 MouseLook.lockCursor = true;
                 Cursor.lockState = CursorLockMode.None;
                 Cursor.visible = false;
@@ -141,26 +141,28 @@ using UnityStandardAssets.Characters.FirstPerson;
                 checkIfAllInventoryClosed();
             }
 
-            public void openInventory()
+            public void openInventory() // The function for when the inventory in opened
             {
-                this.gameObject.SetActive(true);
+                gameObject.SetActive(true);
                 if (InventoryOpen != null)
                     InventoryOpen();
 
-                if (this.gameObject.activeSelf)
+                // todo: Clamp the character camera lock when inventory is activated.
+                if (gameObject.activeSelf)
                 {
                     Cursor.lockState = CursorLockMode.None;
-                    Cursor.visible = true;
                     MouseLook.lockCursor = false;
-
+                    Cursor.visible = true;
                     charMoveUpdate(false);
+                    
                 }
-                else if (!this.gameObject.activeSelf)
+                else if (!gameObject.activeSelf)
                 {
                     MouseLook.lockCursor = true;
                     Cursor.lockState = CursorLockMode.Locked;
                     Cursor.visible = false;
-                    
+                    GameObject.FindWithTag("Player").SetActive(true);
+                   
                     charMoveUpdate(true);
                 }
             }
@@ -220,14 +222,14 @@ using UnityStandardAssets.Characters.FirstPerson;
                 {
                     GameObject inventory = new GameObject();
                     inventory.name = "Inventories";
-                    Canvas = (GameObject) Instantiate(Resources.Load("Prefabs/Canvas - Inventory") as GameObject);
+                    Canvas = Instantiate(Resources.Load("Prefabs/Canvas - Inventory") as GameObject);
                     Canvas.transform.SetParent(inventory.transform, true);
                     GameObject panel =
-                        (GameObject) Instantiate(Resources.Load("Prefabs/Panel - Inventory") as GameObject);
+                        Instantiate(Resources.Load("Prefabs/Panel - Inventory") as GameObject);
                     panel.GetComponent<RectTransform>().localPosition = new Vector3(0, 0, 0);
                     panel.transform.SetParent(Canvas.transform, true);
                     GameObject draggingItem =
-                        (GameObject) Instantiate(Resources.Load("Prefabs/DraggingItem") as GameObject);
+                        Instantiate(Resources.Load("Prefabs/DraggingItem") as GameObject);
                     draggingItem.transform.SetParent(Canvas.transform, true);
                     Inventory temp = panel.AddComponent<Inventory>();
                     Instantiate(Resources.Load("Prefabs/EventSystem") as GameObject);
@@ -237,14 +239,14 @@ using UnityStandardAssets.Characters.FirstPerson;
                 else
                 {
                     GameObject panel =
-                        (GameObject) Instantiate(Resources.Load("Prefabs/Panel - Inventory") as GameObject);
+                        Instantiate(Resources.Load("Prefabs/Panel - Inventory") as GameObject);
                     panel.transform.SetParent(GameObject.FindGameObjectWithTag("Canvas").transform, true);
                     panel.GetComponent<RectTransform>().localPosition = new Vector3(0, 0, 0);
                     Inventory temp = panel.AddComponent<Inventory>();
                     panel.AddComponent<InventoryDesign>();
                     DestroyImmediate(GameObject.FindGameObjectWithTag("DraggingItem"));
                     GameObject draggingItem =
-                        (GameObject) Instantiate(Resources.Load("Prefabs/DraggingItem") as GameObject);
+                        Instantiate(Resources.Load("Prefabs/DraggingItem") as GameObject);
                     draggingItem.transform.SetParent(GameObject.FindGameObjectWithTag("Canvas").transform, true);
                     temp.getPrefabs();
                 }
@@ -303,8 +305,7 @@ using UnityStandardAssets.Characters.FirstPerson;
             {
                 if (GetComponent<EquipmentSystem>() != null)
                     return true;
-                else
-                    return false;
+                return false;
             }
 
 
@@ -372,7 +373,7 @@ using UnityStandardAssets.Characters.FirstPerson;
 
                 if (SlotContainer == null)
                 {
-                    SlotContainer = (GameObject) Instantiate(prefabSlotContainer);
+                    SlotContainer = Instantiate(prefabSlotContainer);
                     SlotContainer.transform.SetParent(PanelRectTransform.transform);
                     SlotContainerRectTransform = SlotContainer.GetComponent<RectTransform>();
                     SlotGridRectTransform = SlotContainer.GetComponent<RectTransform>();
@@ -412,7 +413,7 @@ using UnityStandardAssets.Characters.FirstPerson;
                 {
                     for (int i = slotList.Count; i < (width * height); i++)
                     {
-                        GameObject Slot = (GameObject) Instantiate(prefabSlot);
+                        GameObject Slot = Instantiate(prefabSlot);
                         Slot.name = (slotList.Count + 1).ToString();
                         Slot.transform.SetParent(SlotContainer.transform);
                         slotList.Add(Slot);
@@ -438,7 +439,7 @@ using UnityStandardAssets.Characters.FirstPerson;
 
                 if (SlotContainer == null)
                 {
-                    SlotContainer = (GameObject) Instantiate(prefabSlotContainer);
+                    SlotContainer = Instantiate(prefabSlotContainer);
                     SlotContainer.transform.SetParent(PanelRectTransform.transform);
                     SlotContainerRectTransform = SlotContainer.GetComponent<RectTransform>();
                     SlotGridRectTransform = SlotContainer.GetComponent<RectTransform>();
@@ -477,7 +478,7 @@ using UnityStandardAssets.Characters.FirstPerson;
                 {
                     for (int i = slotList.Count; i < (width * height); i++)
                     {
-                        GameObject Slot = (GameObject) Instantiate(prefabSlot);
+                        GameObject Slot = Instantiate(prefabSlot);
                         Slot.name = (slotList.Count + 1).ToString();
                         Slot.transform.SetParent(SlotContainer.transform);
                         slotList.Add(Slot);
@@ -551,7 +552,7 @@ using UnityStandardAssets.Characters.FirstPerson;
                     {
                         if (SlotContainer.transform.GetChild(i).childCount == 0)
                         {
-                            GameObject item = (GameObject) Instantiate(prefabItem);
+                            GameObject item = Instantiate(prefabItem);
                             item.GetComponent<ItemOnObject>().item = ItemsInInventory[k];
                             item.transform.SetParent(SlotContainer.transform.GetChild(i));
                             item.GetComponent<RectTransform>().localPosition = Vector3.zero;
@@ -593,7 +594,7 @@ using UnityStandardAssets.Characters.FirstPerson;
                 {
                     if (SlotContainer.transform.GetChild(i).childCount == 0)
                     {
-                        GameObject item = (GameObject) Instantiate(prefabItem);
+                        GameObject item = Instantiate(prefabItem);
                         item.GetComponent<ItemOnObject>().item = itemDatabase.getItemByID(id);
                         item.transform.SetParent(SlotContainer.transform.GetChild(i));
                         item.GetComponent<RectTransform>().localPosition = Vector3.zero;
@@ -615,7 +616,7 @@ using UnityStandardAssets.Characters.FirstPerson;
                 {
                     if (SlotContainer.transform.GetChild(i).childCount == 0)
                     {
-                        GameObject item = (GameObject) Instantiate(prefabItem);
+                        GameObject item = Instantiate(prefabItem);
                         ItemOnObject itemOnObject = item.GetComponent<ItemOnObject>();
                         itemOnObject.item = itemDatabase.getItemByID(id);
                         if (itemOnObject.item.itemValue <= itemOnObject.item.maxStack &&
@@ -647,7 +648,7 @@ using UnityStandardAssets.Characters.FirstPerson;
                 {
                     if (SlotContainer.transform.GetChild(i).childCount == 0)
                     {
-                        GameObject item = (GameObject) Instantiate(prefabItem);
+                        GameObject item = Instantiate(prefabItem);
                         ItemOnObject itemOnObject = item.GetComponent<ItemOnObject>();
                         itemOnObject.item = itemDatabase.getItemByID(itemID);
                         if (itemOnObject.item.itemValue < itemOnObject.item.maxStack &&
@@ -820,7 +821,7 @@ using UnityStandardAssets.Characters.FirstPerson;
             public void changeInventoryPanelDesign(Image image)
             {
                 Image inventoryDesign = transform.GetChild(0).GetChild(0).GetComponent<Image>();
-                inventoryDesign.sprite = (Sprite) image.sprite;
+                inventoryDesign.sprite = image.sprite;
                 inventoryDesign.color = image.color;
                 inventoryDesign.material = image.material;
                 inventoryDesign.type = image.type;
@@ -894,7 +895,7 @@ using UnityStandardAssets.Characters.FirstPerson;
                 {
                     if (SlotContainer.transform.GetChild(i).childCount == 0 && i != ignoreSlot)
                     {
-                        GameObject item = (GameObject) Instantiate(prefabItem);
+                        GameObject item = Instantiate(prefabItem);
                         ItemOnObject itemOnObject = item.GetComponent<ItemOnObject>();
                         itemOnObject.item = itemDatabase.getItemByID(itemID);
                         if (itemOnObject.item.itemValue < itemOnObject.item.maxStack &&

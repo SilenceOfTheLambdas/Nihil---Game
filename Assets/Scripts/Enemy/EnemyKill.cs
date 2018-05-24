@@ -13,11 +13,11 @@ public class EnemyKill : MonoBehaviour
     {
         if (dead) //if the player is dead; load the main menu scene
         {
-            OnDeath();
+            Die();
         }
         if (transform.position.y <= -25) //if the player falls out of the world; load main menu scene
         {
-            OnDeath();
+            Die();
         }
         
     }
@@ -26,11 +26,11 @@ public class EnemyKill : MonoBehaviour
     {
         if (collision.gameObject.name == "Enemy")
         {
-            OnDeath();
+            Die();
         }
     }
 
-    private void OnDeath()
+    private void Die()
     {
         SceneManager.LoadScene("Menu");
         MouseLook.lockCursor = false;
