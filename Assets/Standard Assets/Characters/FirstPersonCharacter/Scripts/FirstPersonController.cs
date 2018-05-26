@@ -1,4 +1,3 @@
-using NUnit.Framework;
 using UnityEngine;
 using UnityStandardAssets.Characters.FirstPerson;
 using UnityStandardAssets.CrossPlatformInput;

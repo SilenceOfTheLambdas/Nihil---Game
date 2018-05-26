@@ -3,7 +3,20 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Slot
+  - Tooltip
+  - Canvas
+  - EventSystem
+  - MainInventory
+  - Slots
+  - ItemIcon
+  - Item
+  - DraggingItem
+  - Panel
+  - Destructible
+  - Enemy
+  - Waypoint
   layers:
   - Default
   - TransparentFX
@@ -13,10 +26,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Enemy
+  - Breadcrumb
+  - Waypoint
   - 
   - 
   - 
