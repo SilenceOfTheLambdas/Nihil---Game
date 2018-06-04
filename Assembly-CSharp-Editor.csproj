@@ -98,6 +98,9 @@
     <Compile Include="Assets\Cinemachine\PostFX\Editor\CinemachinePostProcessingEditor.cs" />
     <Compile Include="Assets\Cinemachine\PostFX\Editor\PostFXAutoImport.cs" />
     <Compile Include="Assets\Cinemachine\Timeline\Editor\CinemachineShotEditor.cs" />
+    <Compile Include="Assets\Editor\Object2Terrain.cs" />
+    <Compile Include="Assets\GameObjectBrush\Scripts\Editor\AddObjectPopup.cs" />
+    <Compile Include="Assets\GameObjectBrush\Scripts\Editor\GameObjectBrush.cs" />
     <Compile Include="Assets\Inventory System\Editor\CraftSystemEditor.cs" />
     <Compile Include="Assets\Inventory System\Editor\EquipmentSystemEditor.cs" />
     <Compile Include="Assets\Inventory System\Editor\IM_Manager.cs" />
@@ -105,14 +108,67 @@
     <Compile Include="Assets\Inventory System\Editor\InventoryEditor.cs" />
     <Compile Include="Assets\Inventory System\Editor\StorageInventoryEditor.cs" />
     <Compile Include="Assets\Inventory System\Editor\TooltipEditor.cs" />
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Brush Modes\z_BrushMode.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Brush Modes\z_BrushModeMesh.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Brush Modes\z_BrushModePaint.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Brush Modes\z_BrushModePrefab.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Brush Modes\z_BrushModeRaiseLower.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Brush Modes\z_BrushModeSculpt.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Brush Modes\z_BrushModeSmooth.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Brush Modes\z_BrushModeTexture.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Classes\z_BrushSettings.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Classes\z_BrushTarget.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Classes\z_ColorPalette.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Classes\z_Delegate.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Classes\z_EditableObject.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Classes\z_LocalPref.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Classes\z_PrefabAndSettings.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Classes\z_PrefabPalette.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Classes\z_PreferenceDictionary.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Classes\z_RaycastHit.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Classes\z_ReflectionUtil.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Enum\z_BrushTool.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Interface\z_About.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Interface\z_AdditionalVertexStreamsEditor.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Interface\z_AttributeLayoutContainerEditor.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Interface\z_AttributeLayoutJsonEditor.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Interface\z_BlendMaterialInspector.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Interface\z_BrushSettingsEditor.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Interface\z_ColorPaletteEditor.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Interface\z_Editor.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Interface\z_GlobalSettingsEditor.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Interface\z_MeshFilterEditor.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Interface\z_PrefabPaletteEditor.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Interface\z_PreferenceDictionaryEditor.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Interface\z_SplatWeightEditor.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Interface\z_ZoomOverrideEditor.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Utility\z_AssetPreview.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Utility\z_BakeAdditionalVertexStreams.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Utility\z_Debug.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Utility\z_EditorUtility.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Utility\z_GUI.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Utility\z_GUILayout.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Utility\z_Handles.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Utility\z_IconImporter.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Utility\z_IconUtility.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Utility\z_PostProcessTextureBlend.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Utility\z_Pref.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Utility\z_SceneUtility.cs" />
+    <Compile Include="Assets\ProCore\Polybrush\Code\Editor\Utility\z_ShaderUtil.cs" />
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
       <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProGrids">
+      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids.Editor">
+      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>C:/Users/techd/Documents/MAIN NIHIL GAME/nihil/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -376,31 +432,25 @@
       <HintPath>C:/Users/techd/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/Editor/UnityEditor.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="AssetIdRemapUtility">
-      <HintPath>C:/Users/techd/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.6/ProBuilder/AssetIdRemapUtility/Editor/AssetIdRemapUtility.dll</HintPath>
+      <HintPath>C:/Users/techd/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.8/ProBuilder/AssetIdRemapUtility/Editor/AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="ProBuilderCore">
-      <HintPath>C:/Users/techd/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.6/ProBuilder/Classes/ProBuilderCore.dll</HintPath>
+      <HintPath>C:/Users/techd/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.8/ProBuilder/Classes/ProBuilderCore.dll</HintPath>
     </Reference>
     <Reference Include="ProBuilderMeshOps">
-      <HintPath>C:/Users/techd/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.6/ProBuilder/Classes/ProBuilderMeshOps.dll</HintPath>
+      <HintPath>C:/Users/techd/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.8/ProBuilder/Classes/ProBuilderMeshOps.dll</HintPath>
     </Reference>
     <Reference Include="KdTreeLib">
-      <HintPath>C:/Users/techd/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.6/ProBuilder/Classes/ClassesLib/KdTreeLib.dll</HintPath>
+      <HintPath>C:/Users/techd/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.8/ProBuilder/Classes/ClassesLib/KdTreeLib.dll</HintPath>
     </Reference>
     <Reference Include="pb_Stl">
-      <HintPath>C:/Users/techd/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.6/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
+      <HintPath>C:/Users/techd/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.8/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
     </Reference>
     <Reference Include="Poly2Tri">
-      <HintPath>C:/Users/techd/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.6/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
+      <HintPath>C:/Users/techd/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.8/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
     </Reference>
     <Reference Include="ProBuilderEditor">
-      <HintPath>C:/Users/techd/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.6/ProBuilder/Editor/ProBuilderEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>C:/Users/techd/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.1/UnityEngine.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.Purchasing">
-      <HintPath>C:/Users/techd/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.1/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>C:/Users/techd/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.probuilder@3.0.8/ProBuilder/Editor/ProBuilderEditor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/techd/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
