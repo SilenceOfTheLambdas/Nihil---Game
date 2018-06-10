@@ -128,6 +128,7 @@ public class Tooltip : MonoBehaviour
 
     public void updateTooltip()
     {
+        
         if (!Application.isPlaying)
         {
             tooltipRectTransform.sizeDelta = new Vector2(tooltipWidth, tooltipHeight);

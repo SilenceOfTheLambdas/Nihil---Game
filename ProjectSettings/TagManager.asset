@@ -17,6 +17,7 @@ TagManager:
   - Destructible
   - Enemy
   - Waypoint
+  - Breadcrumb
   layers:
   - Default
   - TransparentFX

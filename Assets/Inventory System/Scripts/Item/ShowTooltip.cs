@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using UnityEngine.Experimental.UIElements;
 
 public class ShowTooltip : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {         //Tooltip
@@ -26,7 +27,7 @@ public class ShowTooltip : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 
     public void OnPointerEnter(PointerEventData data)                               //if you hit a item in the slot
     {
-        if (tooltip != null)
+        if (tooltip != null && MouseButton.LeftMouse)
         {
             item = GetComponent<ItemOnObject>().item;                   //we get the item
             tooltip.item = item;                                        //set the item in the tooltip
